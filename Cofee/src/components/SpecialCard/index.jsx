@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./index.scss";
 import { RiShoppingBasket2Line } from "react-icons/ri";
+import { BasketContext } from "../../context/BasketContext";
+import { FaRegHeart } from "react-icons/fa";
+import { IoIosHeart } from "react-icons/io";
+import { WishlistContext } from "../../context/WishlistContext";
 
-const SpecialCard = ({ image, name, price }) => {
+
+const SpecialCard = ({ image, name, price,item }) => {
+  const { handleBasket } = useContext(BasketContext);
+  const {toggleHeart,heart} = useContext(WishlistContext)
+
   return (
     <>
     
@@ -26,8 +34,14 @@ const SpecialCard = ({ image, name, price }) => {
             </span>
             </div>
             <div className="buttonsActions">
-                <button><RiShoppingBasket2Line /></button>
-                <button><RiShoppingBasket2Line /></button>
+                <button onClick={() => handleBasket(item)}><RiShoppingBasket2Line /></button>
+                <button onClick={() => toggleHeart(item)}>
+                    {heart.includes(item.id) ? (
+                      <IoIosHeart />
+                    ) : (
+                      <FaRegHeart />
+                    )}
+                  </button>
                 <button><RiShoppingBasket2Line /></button>
             </div>
           </div>

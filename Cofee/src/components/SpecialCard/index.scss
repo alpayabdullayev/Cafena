@@ -3,15 +3,20 @@
     padding-top: 20px;
     .card-img{
         border-radius: 8px;
+  
         img{
             border-radius: 8px;
+            width: 370px;
+            height: 300px;
+
         }
     }
     .popular-menu{
         background-color: white;
         position: absolute;
         bottom: -20px;
-        left: 70px;
+        left: 50%;
+        transform: translate(-50%);
         z-index: 2;
         text-align: center;
         display: flex;
@@ -20,6 +25,7 @@
         align-items: center;
         border-radius: 8px;
         padding: 20px;
+        width: 300px;
         .CardContent{
             justify-content: center;
             align-items: center;
