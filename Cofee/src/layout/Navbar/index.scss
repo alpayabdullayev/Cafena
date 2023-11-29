@@ -1,0 +1,52 @@
+#nav {
+    border-top: 1px solid #e2dfdd;
+    min-height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navbox {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .rightmenu {
+            display: flex;
+            width: 10vw;
+
+            .iconsdiv {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+
+                svg {
+                    width: 30px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .mobilemenu {
+            .mobileul {
+                width: 40vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 20px;
+                font-weight: 500;
+
+                li:hover {
+                    list-style: disc;
+                    color: #c7a17a;
+                }
+            }
+        }
+    }
+
+    .active {
+        list-style: disc;
+        color: #c7a17a;
+    }
+}
