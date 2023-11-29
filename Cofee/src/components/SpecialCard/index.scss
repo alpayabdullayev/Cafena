@@ -1,0 +1,50 @@
+.cardsMenu{
+    position: relative;
+    padding-top: 20px;
+    .card-img{
+        border-radius: 8px;
+        img{
+            border-radius: 8px;
+        }
+    }
+    .popular-menu{
+        background-color: white;
+        position: absolute;
+        bottom: -20px;
+        left: 70px;
+        z-index: 2;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        padding: 20px;
+        .CardContent{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .price{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+            }
+            .buttonsActions{
+                display: flex;
+                gap: 10px;
+                padding-top: 10px;
+                button{
+                    background: none;
+                    outline: none;
+                    padding: 5px;
+                    font-size: 20px;
+                    border: 1px solid #E2DFDD;
+                    color: #B4AAA1
+                }
+            }
+        }
+        
+
+    }
+}

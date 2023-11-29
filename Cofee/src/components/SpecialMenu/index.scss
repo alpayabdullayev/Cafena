@@ -1,0 +1,25 @@
+#specialMenu{
+    min-height: 100vh;
+    padding:80px 0;background: #F4F1EE;
+    position: relative;
+    z-index: -3;
+    .specialMenuCards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .img-bg-context{
+        position: absolute;
+        top: 0;
+        left: 0;   
+        z-index: -2; 
+    }
+    .img-bg-context-2{
+        position: absolute;
+        bottom: 0;
+        right: 0;   
+        z-index: -2; 
+    }
+}

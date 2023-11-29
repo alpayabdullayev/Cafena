@@ -1,7 +1,8 @@
 {
-    "posts": [
+    "products": [
         {
             "id": 1,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
@@ -16,6 +17,7 @@
         },
         {
             "id": 2,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
@@ -30,6 +32,7 @@
         },
         {
             "id": 3,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
@@ -44,6 +47,7 @@
         },
         {
             "id": 4,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
@@ -58,6 +62,7 @@
         },
         {
             "id": 5,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
@@ -72,10 +77,11 @@
         },
         {
             "id": 6,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,
-                "discounted":325
+                "discounted":310
 
             },
             "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
