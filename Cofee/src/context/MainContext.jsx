@@ -5,6 +5,7 @@ export const MainContext = createContext();
 const MainProvider = ({ children }) => {
     const [active, setActive] = useState(false);
     const [activeWishlist, setactiveWishlist] = useState(false)
+    
 
     
     const basketOpen = () => {
@@ -16,8 +17,13 @@ const MainProvider = ({ children }) => {
         setActive(false);
     }
 
+    const handleOverlayClick = () =>{
+      setactiveWishlist(false);
+      setActive(false);
+    }
+
     const data = {
-       active,setActive,activeWishlist,setactiveWishlist,basketOpen,wishlistiOpen
+       active,setActive,activeWishlist,setactiveWishlist,basketOpen,wishlistiOpen,handleOverlayClick
     }
 
 

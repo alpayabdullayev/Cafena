@@ -65,7 +65,7 @@ const SpecialMenu = () => {
 
           <div className="specialMenuCards ">
           {isLoading ? (
-              <p>Yükleniyor...</p>
+              <p>Loading...</p>
             ) : (
               data &&
               data

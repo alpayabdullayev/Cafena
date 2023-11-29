@@ -4,14 +4,17 @@ import BasketSideBar from '../../components/BasketSideBar'
 import WishlistSideBar from '../../components/WishlistSideBar'
 import ButtonWishlistAndBasket from '../../components/ButtonWishlistAndBasket'
 import FilterProvider from '../../context/FilterContext'
+import Header from '../../components/Header'
+import Overlay from '../../components/Overlay'
 
 const Home = () => {
   return (
     <div>
       <>
-        <ButtonWishlistAndBasket />
+      <Overlay/>
         <BasketSideBar />
         <WishlistSideBar />
+        <Header/>
         <FilterProvider>
         <SpecialMenu />
 
