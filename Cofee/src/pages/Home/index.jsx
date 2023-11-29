@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <>
       <Overlay/>
-        <BasketSideBar />
+         <BasketSideBar />
         <WishlistSideBar />
         <Header/>
         <FilterProvider>
