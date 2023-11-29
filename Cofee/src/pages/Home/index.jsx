@@ -1,0 +1,14 @@
+import React from 'react'
+import Navbar from '../../layout/Navbar'
+
+
+
+function Home() {
+  return (
+    <>
+    <Navbar/>
+    </>
+  )
+}
+
+export default Home
