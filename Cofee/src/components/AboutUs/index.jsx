@@ -21,7 +21,7 @@ const AboutUs = () => {
           </div>
 
           <div className="aboutus-context">
-            <span className="sub-title-aboutus">ABOUTS US</span>
+            <span className="sub-title-aboutus">ABOUT US</span>
             <h2 className="yourname-text">
               ONE OF THE BEST COFFEE HOUSE IN YOUR HOME TOWN
             </h2>
@@ -31,7 +31,6 @@ const AboutUs = () => {
               suscipit ligula volutpat, a feugiat urna maximus. Cras massa
               nibhtincidunt.
             </p>
-            <br />
 
             <p className="p-tag2">
               Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut
