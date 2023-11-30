@@ -1,0 +1,286 @@
+#topGrade {
+    background: #F4F1EE;
+    text-align: center;
+
+
+    .gradebox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        .sub-title-grade {
+            color: #ffffff;
+            background: #C7A17A;
+            text-transform: uppercase;
+            font-size: 12px;
+            padding: 1.5px 13px;
+            letter-spacing: 2px;
+            border-radius: 3px;
+            line-height: 22px;
+            margin-bottom: 23px;
+            text-align: center;
+        }
+
+        .title-top-grade {
+            color: #000;
+            font-weight: 400;
+            margin: 10px;
+            font-size: 55px;
+
+
+
+
+
+        }
+
+        // ---------------------------------------------------------------------
+
+
+        .coffe-sort {
+            display: flex;
+        flex-wrap: wrap;
+
+
+        }
+
+        .Americano-Grade {
+            position: relative;
+            
+        }
+
+        .one {
+            position: absolute;
+            left: 80px;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            position: absolute;
+            background: #ffffff;
+            color: #000;
+            border: 1px solid #E2DFDD;
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            flex-wrap: wrap;
+            z-index: 3;
+
+        }
+
+        .Ag {
+            border-radius: 50%;
+            position: relative;
+            height: 160px;
+            width: 160px;
+            max-width: 100%;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Americano {
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .p-tag3 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #a7a7a7;
+
+        }
+
+
+        // ---------------------------------------------------------------
+
+
+        .Arebica-Green {
+            position: relative;
+            padding-top: 50px;
+        }
+
+        .two {
+            position: absolute;
+            left: 80px;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            position: absolute;
+            background: #ffffff;
+            color: #000;
+            border: 1px solid #E2DFDD;
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            flex-wrap: wrap;
+        }
+
+        .Ag2 {
+            border-radius: 50%;
+            height: 160px;
+            width: 160px;
+            max-width: 100%;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Arebica {
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            line-height: 1.4;
+
+        }
+
+        .p-tag4 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #a7a7a7;
+
+        }
+
+        // ------------------------------------------------------------------
+        .Mixed-Rosted {
+            position: relative;
+        }
+
+
+        .three {
+            position: absolute;
+            left: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            position: absolute;
+            background: #ffffff;
+            color: #000;
+            border: 1px solid #E2DFDD;
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            flex-wrap: wrap;
+        }
+
+        .Mr {
+            border-radius: 50%;
+            height: 160px;
+            width: 160px;
+            max-width: 100%;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .Mixed {
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .p-tag5 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #a7a7a7;
+        }
+
+        // ---------------------------------------------------------
+
+
+        .Robasta-Rosted {
+            position: relative;
+            padding-top: 50px;
+        }
+
+        .four {
+            position: absolute;
+            left: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid black;
+            position: absolute;
+            background: #ffffff;
+            color: #000;
+            border: 1px solid #E2DFDD;
+            font-weight: 500;
+            margin-top: 0;
+            font-size: 14px;
+            width: 40px;
+            height: 40px;
+            flex-wrap: wrap;
+        }
+
+        .Rr {
+            border-radius: 50%;
+            height: 160px;
+            width: 160px;
+            max-width: 100%;
+            object-fit: cover;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Robasta {
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .p-tag6 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 29px;
+            color: #a7a7a7;
+        }
+
+
+
+
+
+
+
+        .world-top-grade {
+
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+
+}
