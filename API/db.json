@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-1.jpeg",
+            "name": "Americano Coffee",
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Chocolate,Black Tea",
+            "categoryID" :[1,5] ,
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        },
+        {
+            "id": 2,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
+            "name": "CAFFÈ LATTE",
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Coffe,Sweets,Black Tea",
+            "categoryID" :[2,4,5] ,
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        },
+        {
+            "id": 3,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "name": "Americano Ali",
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Green Tea",
+            "categoryID" :[6] ,
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        },
+        {
+            "id": 4,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
+            "name": "LATTE MACCHIATO",
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Sandwich,Sweets,BlackTea",
+            "categoryID" :[3,4,5],
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        },
+        {
+            "id": 5,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-5.jpeg",
+            "name": "ESPRESSO LUNGO",
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Chocolate,Sweets,Black tea",
+            "categoryID" :[1,4,5] ,
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        },
+        {
+            "id": 6,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-6.jpeg",
+            "name": "CAFÈ AU LAIT",
+            "price": {
+                "original":348,
+                "discounted":310
+
+            },
+            "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
+            "category":"Sweets,Green Tea",
+            "categoryID" :[4,6] ,
+            "brand": "BRENDA",
+            "status" : "In stock",
+            "rating" :4
+        }
+    ]
+}

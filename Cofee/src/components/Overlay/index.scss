@@ -1,0 +1,21 @@
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    right: 20%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s; 
+    
+  }
+  
+  .overlay.active {
+    opacity: 0.5;
+    visibility: visible;
+    cursor: url('https://xpressrow.com/html/cafena/cafena/assets/images/icons/cancel.png'),
+      auto;
+  }
+  
