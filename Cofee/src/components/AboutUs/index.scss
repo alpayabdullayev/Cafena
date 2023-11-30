@@ -1,30 +1,37 @@
 #aboutus {
-  background-color: lightgray;
+  background: #F4F1EE;
+  min-height: 90vh;
+  
 
   .images-coffe {
     position: relative;
-    width: 50%;
+    // width: 50%;  
   
   }
 
   .coffe-man {
     display: flex;
     align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    flex-wrap: wrap;
     width: 100%;
     padding-left: 20px;
+    padding-top: 60px;
 
     .coffe-image {
       position: absolute;
       bottom: 20px;
       left: -110px;
+      
     }
   }
 
 
 
   .aboutus-context{
-    width: 50%;
-    margin-right: 140px;
+    // width: 50%;
+    // margin-right: 140px;
     padding-left: 30px;
 
 
@@ -57,6 +64,30 @@
     .p-tag2{
         font-size: 18px;
         color: #a7a7a7;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .images-coffe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100px;
+
+
+    .coffe-image{
+      position: static !important;
+      margin-left: auto;
+      margin-right: auto;
+      width: 15rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+      
     }
   }
 }

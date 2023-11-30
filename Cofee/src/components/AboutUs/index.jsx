@@ -5,22 +5,23 @@ const AboutUs = () => {
     <>
       <section id="aboutus">
         <div className="container">
-        <div className="coffe-man">
-          <div className="images-coffe">
-            <img className="coffe-image" 
-              src="https://xpressrow.com/html/cafena/cafena/assets/images/about/about-img-2-2.png"
-              alt=""
-              srcset=""
-            />
+        <div className="coffe-man row">
+          <div className="images-coffe col-12 col-md-6">
+           
 
             <img
               src="https://xpressrow.com/html/cafena/cafena/assets/images/about/about-img-2-1.png"
               alt=""
             />
+             <img className="coffe-image" 
+              src="https://xpressrow.com/html/cafena/cafena/assets/images/about/about-img-2-2.png"
+              alt=""
+              srcset=""
+            />
 
           </div>
 
-          <div className="aboutus-context">
+          <div className="aboutus-context col-xs-12  col-md-6">
             <span className="sub-title-aboutus">ABOUT US</span>
             <h2 className="yourname-text">
               ONE OF THE BEST COFFEE HOUSE IN YOUR HOME TOWN
