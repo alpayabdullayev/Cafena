@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import "./index.scss"
 import { TbPlayerPlayFilled } from "react-icons/tb";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -7,18 +7,26 @@ import { BeigeButton } from '../Button';
 
 function Header() {
     const [isVideoOpen, setIsVideoOpen] = useState(false)
+    const videoRef = useRef(null)
+    const openVideo = ()=>setIsVideoOpen(true)
+    const closeVideo = ()=>setIsVideoOpen(false)
 
+    const handleVideoClose = (e)=>{
+        if (videoRef.current && !videoRef.current.contains(e.target) ) {
+            closeVideo()
+        }
+    }
     const handleVideoOpen = () => {
         setIsVideoOpen(!isVideoOpen)
     }
     return (
         <>
             <header id='header'>
-                <div className={`${isVideoOpen ? "video" : "dnone"}`}>
+                <div className={`${isVideoOpen ? "video" : "dnone"}`} onClick={handleVideoClose}>
                     <div className='closebtn'>
                     <IoCloseCircleOutline onClick={() => handleVideoOpen()} />
                     </div>
-                    <iframe width="800" height="500" src="https://www.youtube.com/embed/4xe72U7mXNg" title="CGI Animated Short Film HD &quot;A Fox Tale &quot; by A Fox Tale Team | CGMeetup" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe ref={videoRef} width="800" height="500" src="https://www.youtube.com/embed/4xe72U7mXNg" title="CGI Animated Short Film HD &quot;A Fox Tale &quot; by A Fox Tale Team | CGMeetup" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
                 <div className="container">
                     <div className='headerbox'>

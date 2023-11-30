@@ -8,7 +8,9 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { CiLocationOn } from "react-icons/ci";
+import { NavLink } from 'react-router-dom';
+
 
 function Footer() {
     return (
@@ -30,17 +32,18 @@ function Footer() {
 
                                 </div>
                                 <div className="numbox">
-                                    <i><IoIosPhonePortrait /></i>
-                                    <p>Phone : <a href="">
-                                        +88019 339 702 520</a></p>
+                                    <i><CiLocationOn /></i>
+                                    <p>ADDRESS  : <a href="">
+                                    30 North West New</a></p>
+                                        
 
                                 </div>
                             </div>
                             <div className="input">
-                                <input type="text" />
+                                <input placeholder='Enter Your Email' type="text" />
                                 <button>
                                     Subscribe
-                                    <IoIosSend />
+                                    <span><IoIosSend /></span>
                                 </button>
                             </div>
                         </div>
@@ -58,25 +61,47 @@ function Footer() {
                             </div>
                             <div className="icondiv">
                                 <i>
-                                <FaFacebookF />
+                                    <FaFacebookF />
                                 </i>
                             </div>
                             <div className="icondiv">
                                 <i>
-                                <FaYoutube />
+                                    <FaYoutube />
                                 </i>
                             </div>
                             <div className="icondiv">
                                 <i>
-                                <FaGooglePlusG />
+                                    <FaGooglePlusG />
                                 </i>
                             </div>
                             <div className="icondiv">
                                 <i>
-                                <FaInstagram />
+                                    <FaInstagram />
                                 </i>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className='line'></div>
+            <div className="container">
+                <div className="footernav">
+                    <ul className='footerul'>
+                        <NavLink activeclassname={'active'} to={"/"} ><li>Home</li></NavLink>
+                        <NavLink to={"/about"}><li>About</li></NavLink>
+                        <NavLink to={"/menu"}><li>Menu</li></NavLink>
+                        <NavLink to={"/reservation"}><li>Reservation</li></NavLink>
+                        <NavLink to={"/salam"}><li>Pages
+                        </li></NavLink>
+                        <NavLink to={"/shop"}><li>Shop
+                        </li></NavLink>
+                        <NavLink to={"/contact"}><li>Contact</li></NavLink>
+                    </ul>
+                    <div className='gotop'>
+                        <a href="#nav">
+                            Go Top
+                            <span><IoIosArrowRoundUp /></span>
+                        </a>    
                     </div>
                 </div>
             </div>
