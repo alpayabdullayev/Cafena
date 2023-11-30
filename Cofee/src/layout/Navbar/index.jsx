@@ -18,6 +18,9 @@ function Navbar() {
             <nav id='nav'>
                 <div className="container">
                     <div className="navbox">
+                        <div className="navlogo">
+                            <img src="https://xpressrow.com/html/cafena/cafena/assets/images/logo/logo-black.png" alt="" />
+                        </div>
                         <div className="mobilemenu">
                             <ul className='mobileul'>
                                 <NavLink activeclassname={'active'} to={"/"} ><li>Home</li></NavLink>

@@ -7,6 +7,7 @@ import FilterProvider from "../../context/FilterContext";
 import Header from "../../components/Header";
 import Overlay from "../../components/Overlay";
 import AboutUs from '../../components/AboutUs'
+import Footer from "../../layout/Footer";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <FilterProvider>
           <SpecialMenu />
         </FilterProvider>
+        <Footer></Footer>
       </>
     </div>
   );
