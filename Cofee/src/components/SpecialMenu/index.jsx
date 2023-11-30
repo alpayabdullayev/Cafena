@@ -6,7 +6,7 @@ import SpecialCard from "../SpecialCard";
 import useFetch from "../../hooks/useFetch";
 import { MainContext } from "../../context/MainContext";
 import { FilterContext } from "../../context/FilterContext";
-
+import toast, { Toaster } from 'react-hot-toast';
 const SpecialMenu = () => {
   const [data, setData] = useState([]);
   const [status, setStatus] = useState(false);
@@ -60,6 +60,7 @@ const isClicked=(id)=>{
       <section id="specialMenu">
         <div className="container">
           <Title title={"SPECIAL MENU"} titleh1={"CAFENA POPULAR MENU"} />
+          <Toaster />
 
           <div className="specialCategoryButtons">
             <button className={isClicked(1) ? "btnActive" : ""} onClick={(e) => handleCategoryClick(e,1)} value="ALL">
@@ -75,13 +76,13 @@ const isClicked=(id)=>{
             <button className={isClicked(4) && "btnActive"} onClick={(e) => handleCategoryClick(e,4)} value="3">
               sandwiches
             </button>
-            <button onClick={(e) => handleCategoryClick(e)} value="4">
+            <button className={isClicked(5) && "btnActive"} onClick={(e) => handleCategoryClick(e,5)} value="4">
               SWETS
             </button>
-            <button onClick={(e) => handleCategoryClick(e)} value="5">
+            <button className={isClicked(6) && "btnActive"} onClick={(e) => handleCategoryClick(e,6)} value="5">
               BLACK TEA
             </button>
-            <button onClick={(e) => handleCategoryClick(e)} value="6">
+            <button className={isClicked(7) && "btnActive"} onClick={(e) => handleCategoryClick(e,7)} value="6">
               GREEN TEA
             </button>
           </div>

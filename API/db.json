@@ -3,6 +3,9 @@
         {
             "id": 1,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-1.jpeg",
+            "image2":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "Americano Coffee",
             "price": {
                 "original":348,

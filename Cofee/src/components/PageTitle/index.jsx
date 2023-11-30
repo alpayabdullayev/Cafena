@@ -5,7 +5,7 @@ const PageTitle = ({title}) => {
   return (
     <>
     <div className="sectionTitleBanner">
-    <div class="overlayBanner"></div>
+    <div className="overlayBanner"></div>
     <div className="bannerTitle">
       <h2>{title}</h2>
     </div>

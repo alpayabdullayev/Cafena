@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
+import toast, { Toaster } from 'react-hot-toast'
 
 
 
@@ -17,17 +18,25 @@ const WishlistProvider = ({children}) => {
         const isItemInWishlist = wishlist.find(x => x.id === item.id);
     
         if (isItemInWishlist) {
+          toast.error('whislist emove.',{position: 'top-left',})
           const newWishlist = wishlist.filter((x) => x.id !== item.id);
+ 
           setWishlist(newWishlist);
         } else {
+          toast.success('wishlist add .',{position: 'top-left',})
+
           setWishlist([...wishlist, { ...item }]);
+
         }
+
     
         const isItemInHeartList = heart.includes(item.id);
         if (isItemInHeartList) {
             setHeart(heart.filter((id) => id !== item.id));
+
         } else {
             setHeart([...heart, item.id]);
+            
         }
       }
     

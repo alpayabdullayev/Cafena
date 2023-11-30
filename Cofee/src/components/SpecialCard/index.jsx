@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import "./index.scss";
 import { RiShoppingBasket2Line } from "react-icons/ri";
 import { BasketContext } from "../../context/BasketContext";
@@ -7,19 +7,29 @@ import { FaEye } from "react-icons/fa6";
 import { IoIosHeart } from "react-icons/io";
 import { WishlistContext } from "../../context/WishlistContext";
 import { Link } from "react-router-dom";
+import toast, { Toaster } from "react-hot-toast";
 
-
-const SpecialCard = ({ image, name, price,item }) => {
+const SpecialCard = ({ image, name, price, item }) => {
   const { handleBasket } = useContext(BasketContext);
-  const {toggleHeart,heart} = useContext(WishlistContext)
-  
+  const { toggleHeart, heart } = useContext(WishlistContext);
+  const [isHeartToggled, setIsHeartToggled] = useState(false);
+
+
+  const handleToggleHeart = () => {
+    
+
+    toggleHeart(item);
+    setIsHeartToggled(true);
+  };
+
 
   return (
     <>
-    
       <div className="cardsMenu">
         <div className="card-img">
-        <Link to={`/product/${item.id}`}><img src={image} alt="" /></Link>
+          <Link to={`/product/${item.id}`}>
+            <img src={image} alt="" />
+          </Link>
         </div>
 
         <div className="popular-menu">
@@ -28,24 +38,28 @@ const SpecialCard = ({ image, name, price,item }) => {
           </h2>
           <div className="CardContent d-flex">
             <div className="price">
-            <h6 className="label">Price - </h6>
-            <span className="priceR">
-              {price.discounted} /
-              <span className="regular">
-                <del>${price.original}</del>
+              <h6 className="label">Price - </h6>
+              <span className="priceR">
+                {price.discounted} /
+                <span className="regular">
+                  <del>${price.original}</del>
+                </span>
               </span>
-            </span>
             </div>
             <div className="buttonsActions">
-                <button onClick={() => handleBasket(item)}><RiShoppingBasket2Line /></button>
-                <button onClick={() => toggleHeart(item)}>
-                    {heart.includes(item.id) ? (
-                      <IoIosHeart />
-                    ) : (
-                      <FaRegHeart />
-                    )}
-                  </button>
-                <button><FaEye /></button>
+              <button onClick={() => handleBasket(item)}>
+                <RiShoppingBasket2Line />
+              </button>
+              <button onClick={handleToggleHeart}>
+                {heart.includes(item.id) ? (
+                  <IoIosHeart />
+                ) : (
+                  <FaRegHeart />
+                )}
+              </button>
+              <button>
+                <FaEye />
+              </button>
             </div>
           </div>
         </div>

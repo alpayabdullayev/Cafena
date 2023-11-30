@@ -5,6 +5,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 import { BasketContext } from "../../context/BasketContext";
 
+
 const WishlistCard = ({image,name,item}) => {
     const {handleBasket} = useContext(BasketContext)
     const {toggleHeart,heart} = useContext(WishlistContext)

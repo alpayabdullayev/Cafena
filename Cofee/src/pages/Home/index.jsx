@@ -6,12 +6,17 @@ import ButtonWishlistAndBasket from "../../components/ButtonWishlistAndBasket";
 import FilterProvider from "../../context/FilterContext";
 import Header from "../../components/Header";
 import Overlay from "../../components/Overlay";
+import AboutUs from '../../components/AboutUs'
 
 const Home = () => {
   return (
     <div>
       <>
-        <Header />
+      <Overlay/>
+         <BasketSideBar />
+        <WishlistSideBar />
+        <Header/>
+        <AboutUs/>
         <FilterProvider>
           <SpecialMenu />
         </FilterProvider>

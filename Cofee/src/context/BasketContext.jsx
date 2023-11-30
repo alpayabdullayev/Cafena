@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-
+import toast, { Toaster } from 'react-hot-toast'
 
 export const BasketContext = createContext()
 
@@ -17,6 +17,7 @@ const BasketProvider = ({children}) => {
 
         const elementIndex = basket.findIndex((x) => x.id === item.id);
         if (elementIndex !== -1) {
+            toast.success('basket add .',{position: 'top-left',})
           const newBasket = [...basket]
           newBasket[elementIndex].count++;
           setBasket(newBasket);
@@ -29,6 +30,8 @@ const BasketProvider = ({children}) => {
     }
 
     function handleRemove(id) {
+        toast.error('basket add .',{position: 'top-left',})
+
         setBasket(basket.filter(item=>item.id !== id))
     }
 
