@@ -1,0 +1,139 @@
+#footer {
+    position: relative;
+    padding-top: 20px;
+    width: 100%;
+    height: 50vh;
+    background-color: #010103;
+
+    .footerbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vh;
+        .footerbottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+
+            .bottomicons {
+                display: flex;
+                justify-content: space-between;
+                width: 20%;
+
+                .icondiv {
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid #808080;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                }
+
+                .icondiv:hover {
+                    cursor: pointer;
+                    border: 1px solid white;
+
+                    i {
+                        font-size: 20px;
+                        color: white;
+
+                    }
+                }
+
+                i {
+                    color: #808080;
+                }
+            }
+
+            .bottomleft {
+                width: 60%;
+
+                p {
+                    color: white;
+                }
+            }
+        }
+
+        .footertop {
+
+            .toparrow {
+                position: absolute;
+                background-color: white;
+                top: -25px;
+                left: 50%;
+                width: 50px;
+                height: 50px;
+                font-size: 30px;
+                border-radius: 100%;
+                cursor: pointer;
+
+                a {
+                    border-radius: 100%;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+            .topitems {
+                display: flex;
+                justify-content: space-between;
+
+                .input {
+                    position: relative;
+                    width: 10vw;
+                    height: 25px;
+                    border-bottom: 1px solid #32323D;
+                    input {
+                        color: white;
+                        width: 80%;
+                        height: 100%;
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                    }
+                    button {
+                        background-color: #010103;
+                        z-index: 1;
+                        color: white;
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        outline: none;
+                        background-color: transparent;
+                        border: none;
+                    }
+                }
+
+                .nums {
+                    display: flex;
+
+                    .numbox {
+                        display: flex;
+
+                        i {
+                            color: #d3ad7f;
+                            font-size: 40px;
+                        }
+
+                        p {
+                            padding-top: 12px;
+                            height: 50%;
+                            color: white;
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        a {
+                            color: #a7a7a7;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

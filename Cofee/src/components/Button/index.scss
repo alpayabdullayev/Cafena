@@ -1,49 +1,52 @@
-.whitebutton{
-    border: 1px solid #e2dfdd;
-    color: #010103;
-    cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 15px 24px;
-    text-decoration: none;
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    font-weight: 500;
-    white-space: nowrap;
-    transition: 0.3s;
+.whitebutton {
+  border: 1px solid #e2dfdd;
+  color: #010103;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.3s;
 }
-.whitebutton:hover{
-    background-color: #C7A17A;
-    transition: 0.3s;
-    color: white;
-    border: 1px solid #C7A17A;
+
+.whitebutton:hover {
+  background-color: #C7A17A;
+  transition: 0.3s;
+  color: white;
+  border: 1px solid #C7A17A;
 }
-.beigebutton{
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #ffffff;
-    letter-spacing: 2px;
-    background: #C7A17A;
-    padding: 9.5px 34px;
-    text-decoration: none;
-    border-radius: 5px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    border: 1px solid #C7A17A;
-    font-weight: 500;
-    white-space: nowrap;
-    cursor: pointer;
-    transition: 0.3s;
+
+.beigebutton {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+  background: #C7A17A;
+  padding: 9.5px 34px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  border: 1px solid #C7A17A;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.beigebutton:hover{
-    background-color: #010103;
-    transition: 0.3s;
-    border: 1px solid #010103;
-    border-radius: 8px;
+
+.beigebutton:hover {
+  background-color: #010103;
+  transition: 0.3s;
+  border: 1px solid #010103;
+  border-radius: 8px;
 
 
 }
@@ -54,45 +57,66 @@
 
 
 .left-to-right {
-      position: relative;
-      z-index: 1;
-      cursor: pointer;
-      color: white;
-      border: none;
-      border-radius: 8px;
-  
-      &:hover::before {
-        z-index: -1;
-        border: none;
-        border-radius: 8px;
-        min-width: 100%;
-        color: white;
-        transform-origin: left;
-        transform: scaleX(1);
-            
-      }
-  
-      &:before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        min-height: 44px;
-        top: 0;
-        left: 0;
-        background-color: #010103;
-        transition: all 0.3s ease;
-        color: white;
-        border-radius: 8px;
-        transform: scaleX(0);
-        z-index: -999;
-        border: none;
-        border-radius: 8px;
-        transform-origin: right;
-        transition: transform .9s ease;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
 
-      }
-  
+  &:hover::before {
+    z-index: -1;
+    border: none;
+    border-radius: 8px;
+    min-width: 100%;
+    color: white;
+    transform-origin: left;
+    transform: scaleX(1);
 
-    }
-  
-  
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    min-height: 44px;
+    top: 0;
+    left: 0;
+    background-color: #010103;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 8px;
+    transform: scaleX(0);
+    z-index: -999;
+    border: none;
+    border-radius: 8px;
+    transform-origin: right;
+    transition: transform .9s ease;
+
+  }
+
+
+}
+
+@media screen and (max-width: 991px) {
+  .whitebutton {
+    font-size: 8px !important;
+    padding: 8px 16px;
+  }
+
+  .beigebutton {
+    font-size: 8px !important;
+    padding: 8px 16px;
+
+  }
+}
+@media screen and (max-width: 500px) {
+  .whitebutton {
+    font-size: 5px !important;
+    padding: 5px 10px;
+  }
+  .beigebutton {
+    font-size: 5px !important;
+    padding: 5px 10px;
+  }
+}
