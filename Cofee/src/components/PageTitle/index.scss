@@ -1,0 +1,48 @@
+.sectionTitleBanner{
+    min-height:55vh;
+    background-image: url("https://xpressrow.com/html/cafena/cafena/assets/images/bg/breadcrumb-bg-1.jpeg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    
+    .overlayBanner{
+        position: absolute;
+        top: 80;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+    .bannerTitle{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 55vh;
+        z-index: 99;
+        h2{
+            color: #ffffff;
+            font-size: 70px;
+        }
+    }
+    .shape1{
+        position: absolute;
+        width: 100%;
+        top: -10px;
+        left: 0;
+    }
+    .shape2{
+        position: absolute;
+        width: 100%;
+        top: auto;
+    bottom: -8px;
+    }
+}

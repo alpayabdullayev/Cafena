@@ -3,20 +3,23 @@ import "./index.scss";
 import { RiShoppingBasket2Line } from "react-icons/ri";
 import { BasketContext } from "../../context/BasketContext";
 import { FaRegHeart } from "react-icons/fa";
+import { FaEye } from "react-icons/fa6";
 import { IoIosHeart } from "react-icons/io";
 import { WishlistContext } from "../../context/WishlistContext";
+import { Link } from "react-router-dom";
 
 
 const SpecialCard = ({ image, name, price,item }) => {
   const { handleBasket } = useContext(BasketContext);
   const {toggleHeart,heart} = useContext(WishlistContext)
+  
 
   return (
     <>
     
       <div className="cardsMenu">
         <div className="card-img">
-          <img src={image} alt="" />
+        <Link to={`/product/${item.id}`}><img src={image} alt="" /></Link>
         </div>
 
         <div className="popular-menu">
@@ -42,7 +45,7 @@ const SpecialCard = ({ image, name, price,item }) => {
                       <FaRegHeart />
                     )}
                   </button>
-                <button><RiShoppingBasket2Line /></button>
+                <button><FaEye /></button>
             </div>
           </div>
         </div>

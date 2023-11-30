@@ -11,6 +11,7 @@ const SpecialMenu = () => {
   const [data, setData] = useState([]);
   const [status, setStatus] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedDistricts, setSelectedDistricts] = useState([])
 
   const { category, updateCategory } = useContext(FilterContext);
 
@@ -27,10 +28,32 @@ const SpecialMenu = () => {
 
   useFetch(url, Callback);
 
-  const handleCategoryClick = (e) => {
+  const handleCategoryClick = (e,id) => {
+    
+    selectedDistricts.shift()
+    setSelectedDistricts([
+      ...selectedDistricts,
+        id
+      ])
+    // if(selectedDistricts){
+    //   setSelectedDistricts([])
+    // }else{
+    //   setSelectedDistricts([
+    //     ...selectedDistricts,
+    //     id
+    // ])
+    // }
+
+
+
     updateCategory(e.target.value);
     console.log(e.target.value);
   };
+  console.log(selectedDistricts);
+
+const isClicked=(id)=>{
+  return selectedDistricts.indexOf(id) !== -1
+}
 
   return (
     <>
@@ -39,17 +62,17 @@ const SpecialMenu = () => {
           <Title title={"SPECIAL MENU"} titleh1={"CAFENA POPULAR MENU"} />
 
           <div className="specialCategoryButtons">
-            <button onClick={(e) => handleCategoryClick(e)} value="ALL">
+            <button className={isClicked(1) ? "btnActive" : ""} onClick={(e) => handleCategoryClick(e,1)} value="ALL">
               ALL
             </button>
 
-            <button onClick={(e) => handleCategoryClick(e)} value="1">
+            <button className={isClicked(2) ? "btnActive" : ""} onClick={(e) => handleCategoryClick(e,2)} value="1">
               CHOCOLATE
             </button>
-            <button onClick={(e) => handleCategoryClick(e)} value="2">
+            <button className={isClicked(3) ? "btnActive" : ""} onClick={(e) => handleCategoryClick(e,3)} value="2">
               COFFE
             </button>
-            <button onClick={(e) => handleCategoryClick(e)} value="3">
+            <button className={isClicked(4) && "btnActive"} onClick={(e) => handleCategoryClick(e,4)} value="3">
               sandwiches
             </button>
             <button onClick={(e) => handleCategoryClick(e)} value="4">

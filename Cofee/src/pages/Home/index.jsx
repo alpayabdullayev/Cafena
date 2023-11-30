@@ -7,6 +7,7 @@ import FilterProvider from '../../context/FilterContext'
 import Header from '../../components/Header'
 import Overlay from '../../components/Overlay'
 import AboutUs from '../../components/AboutUs'
+import TopGrade from '../../components/TopGrade'
 
 const Home = () => {
   return (
@@ -17,14 +18,14 @@ const Home = () => {
         <WishlistSideBar />
         <Header/>
         <AboutUs/>
-
         <FilterProvider>
-        <SpecialMenu />
-
+          <SpecialMenu />
         </FilterProvider>
+        <TopGrade/>
+        
       </>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
