@@ -16,7 +16,6 @@ const AboutUs = () => {
              <img className="coffe-image" 
               src="https://xpressrow.com/html/cafena/cafena/assets/images/about/about-img-2-2.png"
               alt=""
-              srcset=""
             />
 
           </div>

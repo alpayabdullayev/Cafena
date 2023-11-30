@@ -1,21 +1,39 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import "./index.scss"
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa";
 import { FaShoppingBasket } from "react-icons/fa";
 import { MainContext } from '../../context/MainContext';
+import { BsBox2HeartFill } from "react-icons/bs";
 
 function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false)
     const { basketOpen, wishlistiOpen } = useContext(MainContext);
+    const [isFixed, setIsFixed] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+          const scrollPosition = window.scrollY;
+          setIsFixed(scrollPosition > 600);
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
 
     const handleSearchOpen = ()=>{
         setIsSearchOpen(!isSearchOpen)
     }
+    const navbarStyle = {
+        transition: 'all 0.3s ease',
+      };
     return (
         <>
-            <nav id='nav'>
+            <nav id='nav' className={isFixed ? 'fixed-navbar' : 'normal-navbar'} style={navbarStyle}>
                 <div className="container">
                     <div className="navbox">
                         <div className="navlogo">
@@ -60,11 +78,15 @@ function Navbar() {
                                     </div>
                                 </div>
                             <div className='iconsdiv'>
-                                <FaBars />
+                                <button> <FaBars /></button>
                             </div>
                             <div className='iconsdiv'>
                                 <button onClick={() => basketOpen()}><FaShoppingBasket /></button>
                             </div>
+                            <div className='iconsdiv'>
+                                <button onClick={() => wishlistiOpen()}>                            <BsBox2HeartFill /></button>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -74,3 +96,5 @@ function Navbar() {
 }
 
 export default Navbar
+
+

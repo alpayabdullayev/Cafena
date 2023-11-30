@@ -1,6 +1,9 @@
 #header {
     width: 100%;
     padding-bottom: 80px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 10;
 
     .dnone {
         display: none;
@@ -45,6 +48,13 @@
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
+                .buttons{
+                    button{
+                        &:nth-child(2){
+                            margin-left: 20px
+                        }
+                    }
+                }
 
                 h1 {
                     font-size: 80px;
@@ -124,6 +134,13 @@
             }
         }
     }
+    .headerbg1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -9;
+    }
+
 }
 
 @media screen and (max-width: 1200px) {

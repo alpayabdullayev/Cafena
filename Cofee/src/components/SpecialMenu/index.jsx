@@ -35,17 +35,6 @@ const SpecialMenu = () => {
       ...selectedDistricts,
         id
       ])
-    // if(selectedDistricts){
-    //   setSelectedDistricts([])
-    // }else{
-    //   setSelectedDistricts([
-    //     ...selectedDistricts,
-    //     id
-    // ])
-    // }
-
-
-
     updateCategory(e.target.value);
     console.log(e.target.value);
   };
@@ -115,16 +104,7 @@ const isClicked=(id)=>{
             )}
           </div>
         </div>
-        <img
-          className="img-bg-context"
-          src="https://xpressrow.com/html/cafena/cafena/assets/images/shape/menu-shape-1.png"
-          alt=""
-        />
-        <img
-          className="img-bg-context-2"
-          src="https://xpressrow.com/html/cafena/cafena/assets/images/shape/menu-shape-4.png"
-          alt=""
-        />
+
       </section>
     </>
   );

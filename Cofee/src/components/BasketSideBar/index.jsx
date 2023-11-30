@@ -3,6 +3,7 @@ import { MainContext } from "../../context/MainContext";
 import "./index.scss";
 import { BasketContext } from "../../context/BasketContext";
 import BasketCard from "../BasketCard";
+import { v4 as uuidv4 } from 'uuid';
 
 const BasketSideBar = () => {
   const { active } = useContext(MainContext);
@@ -18,9 +19,9 @@ const BasketSideBar = () => {
 
           <div>
             {basket.map((item) => (
-              <>
-                <BasketCard {...item} item={item} />
-              </>
+              
+                <BasketCard key={uuidv4()} {...item} item={item} />
+              
             ))}
 
             <p style={{ color: "black" }}>

@@ -5,6 +5,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 9999999999999;
+    
 
     .navbox {
         width: 100%;
@@ -62,36 +64,72 @@
         }
 
         .mobilemenu {
+           .pages{
+            position: relative;
+            transition: all 0.5s ease;
+
+           }
             .pages:hover {
+            transition: all 0.5s ease;
+
                 .pagesul {
-                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all 0.5s ease;
+                    transform: scaleX(1);
+                    transform-origin: top;
+
+
                 }
             }
 
             .pagesul {
-                display: none;
+                opacity: 0;
+                visibility: hidden;
                 position: absolute;
+                top: 24px;
+                left: 20px;
                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 padding: 25px;
                 white-space: nowrap;
+                transition: all 0.5s ease;
+                transform: scaleX(0);
+                transform-origin: top;
+
+
 
                 li {
                     color: black;
+            transition: all 0.5s ease;
+
                 }
             }
 
+            .shop{
+                position: relative;
+            }
             .shop:hover {
                 .shopul {
-                    display: block;
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all 0.5s ease;
+                    transform: scaleX(1);
+                    transform-origin: top;
                 }
             }
 
             .shopul {
-                display: none;
+                opacity: 0;
+                visibility: hidden;
                 position: absolute;
+                top: 24px;
+                left: 20px;
                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 padding: 25px;
                 white-space: nowrap;
+                transition: all 0.5s ease;
+                transform: scaleX(0);
+                transform-origin: top;
 
                 li {
                     color: black;
@@ -105,10 +143,17 @@
                 align-items: center;
                 font-size: 20px;
                 font-weight: 500;
+            transition: all 0.5s ease;
 
+                li{
+                    transition: all 0.5s ease;
+
+                }
                 li:hover {
                     list-style: disc;
                     color: #c7a17a;
+            transition: all 0.5s ease;
+
                 }
             }
         }
@@ -122,6 +167,17 @@
     }
 }
 
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 9999999;
+    background-color: white;
+
+  }
 .dnone {
     display: none;
 }
@@ -141,5 +197,18 @@
     }
     .navlogo{
         display: block !important;
+    }
+}
+
+
+.rightmenu{
+    .iconsdiv{
+        z-index: 9;
+        button{
+            background: none;
+            outline: none;
+            border: none;
+            
+        }
     }
 }

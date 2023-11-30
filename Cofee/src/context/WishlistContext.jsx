@@ -18,12 +18,13 @@ const WishlistProvider = ({children}) => {
         const isItemInWishlist = wishlist.find(x => x.id === item.id);
     
         if (isItemInWishlist) {
-          toast.error('whislist emove.',{position: 'top-left',})
+          toast.error('whislist Remove.',{position: 'bottom-left', 
+          })
           const newWishlist = wishlist.filter((x) => x.id !== item.id);
  
           setWishlist(newWishlist);
         } else {
-          toast.success('wishlist add .',{position: 'top-left',})
+          toast.success('wishlist add .',{position: 'bottom-left'})
 
           setWishlist([...wishlist, { ...item }]);
 

@@ -5,6 +5,7 @@ import { IoCloseCircleOutline } from "react-icons/io5";
 import { WhiteButton } from '../Button';
 import { BeigeButton } from '../Button';
 
+
 function Header() {
     const [isVideoOpen, setIsVideoOpen] = useState(false)
 
@@ -48,6 +49,8 @@ function Header() {
                         </div>
                     </div>
                 </div>
+                <img className='headerbg1' src="https://xpressrow.com/html/cafena/cafena/assets/images/shape/hero-shape-2-1.png" alt="" />
+                
             </header>
         </>
     )

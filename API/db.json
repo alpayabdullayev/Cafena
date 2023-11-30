@@ -3,7 +3,7 @@
         {
             "id": 1,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-1.jpeg",
-            "image2":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
             "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
             "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "Americano Coffee",
@@ -22,6 +22,9 @@
         {
             "id": 2,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "CAFFÈ LATTE",
             "price": {
                 "original":348,
@@ -38,6 +41,9 @@
         {
             "id": 3,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "Americano Ali",
             "price": {
                 "original":348,
@@ -54,6 +60,9 @@
         {
             "id": 4,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "LATTE MACCHIATO",
             "price": {
                 "original":348,
@@ -70,6 +79,9 @@
         {
             "id": 5,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-5.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "ESPRESSO LUNGO",
             "price": {
                 "original":348,
@@ -86,6 +98,9 @@
         {
             "id": 6,
             "image":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-6.jpeg",
+            "image2":"https://138326475.cdn6.editmysite.com/uploads/1/3/8/3/138326475/s672279230463756966_p1_i8_w2048.png",
+            "image3":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-3.jpeg",
+            "image4":"https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-4.jpeg",
             "name": "CAFÈ AU LAIT",
             "price": {
                 "original":348,
@@ -98,6 +113,32 @@
             "brand": "BRENDA",
             "status" : "In stock",
             "rating" :4
+        }
+    ],
+    "testimonials":[
+        {
+            "id": 1,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/icons/t-quote.png",
+            "desc": "Very good quality of food and service. Vast menu with child friendlyitems as well as local  seafood and even entrees for those who dont like seafood. Great place! Thanks. We absolutely love everythingthere!",
+            "profileImg" : "https://xpressrow.com/html/cafena/cafena/assets/images/author/tm-author.png",
+            "name" : "Rasalina De Willamson",
+            "work" : "Founder & co"
+        },
+        {
+            "id": 2,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/icons/t-quote.png",
+            "desc": "Very good quality of food and service. Vast menu with child friendlyitems as well as local seafood and even entrees for those who dont like seafood. Great place! Thanks. We absolutely love everythingthere!",
+            "profileImg" : "https://xpressrow.com/html/cafena/cafena/assets/images/author/tm-author.png",
+            "name" : "Alpay",
+            "work" : "Founder & co"
+        },
+        {
+            "id": 3,
+            "image":"https://xpressrow.com/html/cafena/cafena/assets/images/icons/t-quote.png",
+            "desc": "Very good quality of food and service. Vast menu with child friendlyitems as well as local seafood and even entrees for those who dont like seafood. Great place! Thanks. We absolutely love everythingthere!",
+            "profileImg" : "https://xpressrow.com/html/cafena/cafena/assets/images/author/tm-author.png",
+            "name" : "Rasalina De Willamson",
+            "work" : "Founder & co"
         }
     ]
 }

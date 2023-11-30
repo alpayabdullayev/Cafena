@@ -3,6 +3,7 @@ import { MainContext } from "../../context/MainContext";
 import { WishlistContext } from "../../context/WishlistContext";
 import "./index.scss"
 import WishlistCard from "../WishlistCard";
+import { v4 as uuidv4 } from 'uuid';
 
 const WishlistSideBar = () => {
   const { activeWishlist } = useContext(MainContext);
@@ -20,7 +21,7 @@ const WishlistSideBar = () => {
         <div>
         {
                 wishlist.map((item)=>(
-                    <WishlistCard key={item.id} {...item} item={item}/>
+                    <WishlistCard key={uuidv4()} {...item} item={item}/>
                 ))
             }
         </div>

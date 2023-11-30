@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import Overlay from "../../components/Overlay";
 import AboutUs from '../../components/AboutUs'
 import TopGrade from "../../components/TopGrade";
+import Testimonial from "../../components/Testimonial";
 
 
 
@@ -23,6 +24,7 @@ const Home = () => {
         <FilterProvider>
           <SpecialMenu />
         </FilterProvider>
+        <Testimonial/>
         <TopGrade/>
       </>
     </div>

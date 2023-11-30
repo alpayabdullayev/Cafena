@@ -1,13 +1,17 @@
 #topGrade {
     background: #F4F1EE;
     text-align: center;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 2;
+
 
 
     .gradebox {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        padding-top: 80px;
 
         .sub-title-grade {
             color: #ffffff;
@@ -283,4 +287,16 @@
         }
     }
 
+    .bgImgTopGrade1{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -2;
+    }
+    .bgImgTopGrade2{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -2;
+    }
 }

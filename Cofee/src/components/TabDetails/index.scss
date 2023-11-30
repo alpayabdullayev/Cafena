@@ -1,0 +1,34 @@
+#tabsSection {
+    .container {
+      .tabs-component {
+        .tabs-container {
+          display: flex;
+  
+          .tabs {
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            background-color: #f0f0f0;
+            margin-right: 10px;
+            font-weight: bold;
+            color: #333;
+  
+            &.active {
+              background-color: #ddd;
+            }
+          }
+        }
+  
+        .content {
+          display: none;
+          padding: 20px;
+          border: 1px solid #ddd;
+  
+          &.active-content {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  

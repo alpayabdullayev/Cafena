@@ -1,15 +1,13 @@
 import React from 'react'
 import './index.scss'
+import Title from '../Title'
 
 const TopGrade = () => {
     return (
         <section id='topGrade'>
             <div class="container">
                 <div className='gradebox'>
-                    <div className='world-top-grade'>
-                        <span className='sub-title-grade'>TOP GRADE</span>
-                        <h2 className='title-top-grade'>WORLD TOP GRADE</h2>
-                    </div>
+                    <Title title={"TOP GRADE"} titleh1={"WORLD TOP GRADE"}/>
                     <br></br>
                     <br></br>
 {/* ----------------------------------------------------------------------- */}
@@ -52,6 +50,9 @@ const TopGrade = () => {
                     </div>
                 </div>
             </div>
+            <img className='bgImgTopGrade1' src="https://xpressrow.com/html/cafena/cafena/assets/images/shape/top-grade-shape-2-1.png" alt="" />
+            <img className='bgImgTopGrade2' src="https://xpressrow.com/html/cafena/cafena/assets/images/shape/top-grade-shape-2-2.png" alt="" />
+
         </section>
     )
 }
