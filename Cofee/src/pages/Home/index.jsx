@@ -6,16 +6,10 @@ import ButtonWishlistAndBasket from "../../components/ButtonWishlistAndBasket";
 import FilterProvider from "../../context/FilterContext";
 import Header from "../../components/Header";
 import Overlay from "../../components/Overlay";
-import React from 'react'
-import SpecialMenu from '../../components/SpecialMenu'
-import BasketSideBar from '../../components/BasketSideBar'
-import WishlistSideBar from '../../components/WishlistSideBar'
-import ButtonWishlistAndBasket from '../../components/ButtonWishlistAndBasket'
-import FilterProvider from '../../context/FilterContext'
-import Header from '../../components/Header'
-import Overlay from '../../components/Overlay'
 import AboutUs from '../../components/AboutUs'
->>>>>>>>> Temporary merge branch 2
+import TopGrade from "../../components/TopGrade";
+
+
 
 const Home = () => {
   return (
@@ -29,6 +23,7 @@ const Home = () => {
         <FilterProvider>
           <SpecialMenu />
         </FilterProvider>
+        <TopGrade/>
       </>
     </div>
   );
