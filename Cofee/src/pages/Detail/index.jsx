@@ -6,7 +6,6 @@ import { WishlistContext } from "../../context/WishlistContext";
 import { FaRegHeart } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 import PageTitle from "../../components/PageTitle";
-// import ReactImageMagnify from 'react-image-magnify';
 import { FaShare } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
@@ -41,7 +40,7 @@ function ProductDetail() {
   const handleColClick = (imgSrc) => {
     setBigImgSrc(imgSrc);
   };
-  // const [backgroundPosition, setBackgroundPosition] = useState("10% 10%");
+ 
 
   // const zoom = (e) => {
   //   const zoomer = e.currentTarget;
@@ -96,30 +95,7 @@ function ProductDetail() {
         <div className="container">
           <div className="detail-content ">
           <div className="big-img ">
-          {/* <figure
-      className="zoom"
-      onMouseMove={handleZoom}
-      onTouchMove={handleZoom}
-      style={{
-        backgroundPosition,
-        position: 'relative',
-        height: '300px',
-        width: '500px',
-        overflow: 'hidden',
-        cursor: 'zoom-in',
-        backgroundImage: `url(${backgroundImage})`
-      }}
-    >
-      <img
-        src={backgroundImage}
-        alt="Zoomed Image"
-        style={{
-          transition: 'opacity 0.5s',
-          display: 'block',
-          width: '100%',
-        }}
-      />
-    </figure> */}
+
     <img src={bigImgSrc || product.image2} alt="" />
         </div>
 
