@@ -1,0 +1,27 @@
+#news{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .newsbox{
+        .newstop{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .latestnews{
+                span{
+                    background: #C7A17A;
+                    color: white;
+                    padding: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius:5px ;
+                    width: 120px;
+                }
+                h2{
+                    font-size: 55px;
+                }
+            }
+        }
+    }
+}

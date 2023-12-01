@@ -1,0 +1,74 @@
+.newscard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    .card {
+        min-width: 30%;
+
+        .cardimg {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            width: 20vw;
+            img {
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+
+        .cardtext {
+            .cardul {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                .rasalina{
+                    font-weight: 500;
+                    span{
+                        color: #a7a7a7;
+                        font-weight: 360 ;
+                    }
+                }
+                .buttonli{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    i:hover{
+                        color: #C7A17A; 
+                        cursor: pointer;
+                    }
+                }
+                li{
+
+                    h3{
+                        font-size: 25px ;
+                    }
+                    button{
+                        color: #6c6c6c;
+                        background-color: transparent;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                        cursor: pointer;
+                    }
+                    button:hover{
+                        color: #C7A17A;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card .cardimg {
+    overflow: hidden;
+}
+
+.card .cardimg img {
+    transition: all 0.4s ease;
+}
+
+.card:hover .cardimg img {
+    transform: scale(1.1);
+}
