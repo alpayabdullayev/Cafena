@@ -17,10 +17,9 @@
 }
 
 .whitebutton:hover {
-  background-color: #C7A17A;
+  // background-color: #C7A17A;
   transition: 0.3s;
   color: white;
-  border: 1px solid #C7A17A;
 }
 
 .beigebutton {
@@ -43,9 +42,8 @@
 }
 
 .beigebutton:hover {
-  background-color: #010103;
+  // background-color: #010103;
   transition: 0.3s;
-  border: 1px solid #010103;
   border-radius: 8px;
 
 
@@ -91,7 +89,47 @@
     border: none;
     border-radius: 8px;
     transform-origin: right;
-    transition: transform .9s ease;
+    transition: transform .6s ease;
+
+  }
+
+
+}
+.left-to-right-white {
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+
+  &:hover::before {
+    z-index: -1;
+    border: none;
+    border-radius: 8px;
+    min-width: 100%;
+    color: white;
+    transform-origin: left;
+    transform: scaleX(1);
+
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    min-height: 44px;
+    top: 0;
+    left: 0;
+    background-color: #C7A17A;
+    transition: all 0.3s ease;
+    color: white;
+    border-radius: 8px;
+    transform: scaleX(0);
+    z-index: -999;
+    border: none;
+    border-radius: 8px;
+    transform-origin: right;
+    transition: transform .6s ease;
 
   }
 

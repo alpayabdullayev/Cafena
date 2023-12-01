@@ -3,7 +3,7 @@ import "./index.scss"
 
 export function WhiteButton({text}) {
     return(
-        <button className='whitebutton '>
+        <button className='whitebutton left-to-right-white'>
             {text}
         </button>
     )

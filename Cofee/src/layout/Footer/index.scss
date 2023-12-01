@@ -1,137 +1,255 @@
 #footer {
     position: relative;
-    padding-top: 20px;
+    padding-top: 50px;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
     background-color: #010103;
 
-    .footerbox {
+    .line {
+        width: 100%;
+        border: 1px solid #32323d;
+        margin-top: 30px;
+    }
+
+    .footernav {
+        color: white;
+        width: 100%;
+        min-height: 20vh;
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        height: 30vh;
-        .footerbottom {
+        align-items: center;
+
+        .footerul {
+            width: 60%;
             display: flex;
             justify-content: space-between;
-            align-items: end;
+            flex-wrap: wrap;
+            font-size: 20px;
+        }
 
-            .bottomicons {
+        .gotop {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
                 display: flex;
-                justify-content: space-between;
-                width: 20%;
+                justify-content: center;
+                align-items: center;
 
-                .icondiv {
-                    width: 40px;
-                    height: 40px;
-                    border: 1px solid #808080;
+                span {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border-radius: 5px;
-                }
-
-                .icondiv:hover {
-                    cursor: pointer;
-                    border: 1px solid white;
-
-                    i {
-                        font-size: 20px;
-                        color: white;
-
-                    }
-                }
-
-                i {
-                    color: #808080;
-                }
-            }
-
-            .bottomleft {
-                width: 60%;
-
-                p {
-                    color: white;
+                    font-size: 30px;
                 }
             }
         }
+    }
+}
 
-        .footertop {
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
 
-            .toparrow {
-                position: absolute;
-                background-color: white;
-                top: -25px;
-                left: 50%;
-                width: 50px;
-                height: 50px;
-                font-size: 30px;
-                border-radius: 100%;
-                cursor: pointer;
+    .footerbottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        min-width: 50%;
 
-                a {
-                    border-radius: 100%;
-                    width: 100%;
-                    height: 100%;
+        .bottomicons {
+            display: flex;
+            justify-content: space-between;
+            width: 20%;
+
+            .icondiv {
+                width: 40px;
+                height: 40px;
+                border: 1px solid #808080;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+
+                i {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
             }
 
-            .topitems {
-                display: flex;
-                justify-content: space-between;
+            .icondiv:hover {
+                cursor: pointer;
+                border: 1px solid white;
 
-                .input {
-                    position: relative;
-                    width: 10vw;
-                    height: 25px;
-                    border-bottom: 1px solid #32323D;
-                    input {
-                        color: white;
-                        width: 80%;
-                        height: 100%;
-                        border: none;
-                        outline: none;
-                        background-color: transparent;
-                    }
-                    button {
-                        background-color: #010103;
-                        z-index: 1;
-                        color: white;
-                        position: absolute;
-                        right: 0;
-                        top: 0;
-                        outline: none;
-                        background-color: transparent;
-                        border: none;
-                    }
+                i {
+                    font-size: 20px;
+                    color: white;
+
+                }
+            }
+
+            i {
+                color: #808080;
+            }
+        }
+
+        .bottomleft {
+            width: 60%;
+
+            p {
+                color: white;
+            }
+        }
+    }
+
+    .footertop {
+        .toparrow {
+            position: absolute;
+            background-color: white;
+            top: -25px;
+            left: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            border-radius: 100%;
+            cursor: pointer;
+
+            a {
+                border-radius: 100%;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .topitems {
+            display: flex;
+            justify-content: space-between;
+
+            .input {
+                position: relative;
+                width: 25vw;
+                height: 50px;
+                border-bottom: 2px solid #32323D;
+
+                input {
+                    color: white;
+                    width: 80%;
+                    height: 100%;
+                    border: none;
+                    outline: none;
+                    background-color: transparent;
                 }
 
-                .nums {
+                button {
+                    background-color: #010103;
+                    color: white;
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    outline: none;
+                    background-color: transparent;
+                    border: none;
+
+                }
+
+            }
+
+
+            .nums {
+                display: flex;
+                gap: 20px;
+                .numbox {
                     display: flex;
-
-                    .numbox {
-                        display: flex;
-
-                        i {
-                            color: #d3ad7f;
-                            font-size: 40px;
-                        }
-
-                        p {
-                            padding-top: 12px;
-                            height: 50%;
-                            color: white;
-                            display: flex;
-                            justify-content: center;
-                        }
-
-                        a {
-                            color: #a7a7a7;
-
-                        }
+                    align-items: center;
+                    i {
+                        color: #d3ad7f;
+                        font-size: 40px;
                     }
+
+                    p {
+                        height: 50%;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    a {
+                        color: #a7a7a7;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.active {
+    >li {
+        color: #c7a17a;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footerul{
+        font-size: 10px !important;
+    }
+    .gotop{
+        font-size: 10px !important;
+        span{
+            font-size: 15px !important;
+        }
+    }
+    .footerbottom {
+        .icondiv{
+            width: 20px !important;
+            height: 20px !important;
+            font-size: 8px;
+        }
+        .bottomleft {
+            font-size: 10px;
+            img {
+                width: 60px;
+            }
+        }
+    }
+
+    .footertop {
+        .toparrow {
+            width: 30px !important;
+            height: 30px !important;
+            top: -15px !important;
+            font-size: 15px !important;
+        }
+
+        .topitems {
+            flex-direction: column;
+            align-items: center;
+
+            .nums {
+                i {
+                    font-size: 20px !important;
+                }
+                p{
+                    font-size: 10px !important;
+                }
+            }
+
+            .input {
+                width: 20vw !important;
+                height: 40px !important;
+                input{
+                    font-size: 10px !important;
+                }
+                button {
+                    display: none;
                 }
             }
         }
