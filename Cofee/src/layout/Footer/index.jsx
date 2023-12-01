@@ -98,7 +98,7 @@ function Footer() {
                         <NavLink to={"/contact"}><li>Contact</li></NavLink>
                     </ul>
                     <div className='gotop'>
-                        <a href="#nav">
+                        <a href="#header">
                             Go Top
                             <span><IoIosArrowRoundUp /></span>
                         </a>    

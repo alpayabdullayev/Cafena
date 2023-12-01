@@ -64,13 +64,18 @@
         }
 
         .mobilemenu {
+            z-index: 99;
            .pages{
             position: relative;
             transition: all 0.5s ease;
+            z-index: 2;
+
 
            }
             .pages:hover {
             transition: all 0.5s ease;
+            z-index: 2;
+
 
                 .pagesul {
                     opacity: 1;
@@ -78,6 +83,8 @@
                     transition: all 0.5s ease;
                     transform: scaleX(1);
                     transform-origin: top;
+                    z-index: 2;
+
 
 
                 }

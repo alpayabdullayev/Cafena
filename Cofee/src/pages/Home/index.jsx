@@ -9,6 +9,7 @@ import Overlay from "../../components/Overlay";
 import AboutUs from '../../components/AboutUs'
 import TopGrade from "../../components/TopGrade";
 import Testimonial from "../../components/Testimonial";
+import Footer from "../../layout/Footer";
 
 
 
@@ -26,6 +27,7 @@ const Home = () => {
         </FilterProvider>
         <Testimonial/>
         <TopGrade/>
+        <Footer/>
       </>
     </div>
   );
