@@ -13,6 +13,7 @@ import Footer from "../../layout/Footer";
 
 
 
+
 const Home = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Home = () => {
          <BasketSideBar />
         <WishlistSideBar />
         <Header/>
-        <AboutUs/>
+        <AboutUs text={"Donec et nibh maximus, congue est eu, mattis nunc. Praesent utquam quis quam venenatis fringilla. Morbi vestibulum id tellusmmodomattis. Aliquam erat volutpat. Aenean accumsan id mi necsemper. Lorem ipsum."}/>
         <FilterProvider>
           <SpecialMenu />
         </FilterProvider>
