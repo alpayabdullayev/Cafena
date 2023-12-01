@@ -140,5 +140,175 @@
             "name" : "Rasalina De Willamson",
             "work" : "Founder & co"
         }
+    ],
+    "filters": [
+        {
+            "id": 1,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Burger",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "1",
+            "rating":5
+        },
+        {
+            "id": 2,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Burger",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "1",
+            "rating":5
+        },
+        {
+            "id": 3,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Burger",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "1",
+            "rating":5
+        },
+        {
+            "id": 4,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "2x Pizaa",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "2",
+            "rating":5
+        },
+        {
+            "id": 5,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "2x Pizaa",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "2",
+            "rating":5
+        },
+        {
+            "id": 6,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "2x Pizaa",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "2",
+            "rating":5
+        },
+        {
+            "id": 7,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "2x Pizaa",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "2",
+            "rating":5
+        },
+        {
+            "id": 8,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Cold Drinks",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "3",
+            "rating":5
+        },
+        {
+            "id": 9,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Cold Drinks",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "3",
+            "rating":5
+        },
+        {
+            "id": 10,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Burger",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "1",
+            "rating":5
+        },
+        {
+            "id": 11,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Chikcen",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "4",
+            "rating":5
+        },
+        {
+            "id": 12,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Chikcen",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "4",
+            "rating":5
+        },
+        {
+            "id": 13,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Chikcen",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "4",
+            "rating":5
+        },
+        {
+            "id": 14,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Stuck Dish",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "5",
+            "rating":5
+        },
+        {
+            "id": 15,
+            "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-3.png",
+            "image2": "https://xpressrow.com/html/cafena/cafena/assets/images/products/shop/s-p-2.png",
+            "category": "Stuck Dish",
+            "name": "VICARAGUA COFFEE BEANS",
+            "brand" : "ROSTED COFFEE",  
+            "price":325,
+            "categoryId": "5",
+            "rating":5
+        }
+
+
     ]
 }
+

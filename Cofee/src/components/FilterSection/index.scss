@@ -1,0 +1,17 @@
+#filterSection{
+    min-height: 100vh;
+    .sortShowing{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
+        border: 1px solid #e8e8e8;
+        border-radius: 8px;
+       
+
+    }
+    .filterIsPage{
+        padding-top: 80px;       
+        padding-bottom: 80px;       
+    }
+}
