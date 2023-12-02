@@ -45,16 +45,16 @@ function Navbar() {
                                 <NavLink to={"/about"}><li>About</li></NavLink>
                                 <NavLink to={"/menu"}><li>Menu</li></NavLink>
                                 <NavLink to={"/reservation"}><li>Reservation</li></NavLink>
-                                <NavLink to={"/salam"} className={"pages"}><li>Pages
+                                <a className={"pages"}><li>Pages
                                     <ul className='pagesul'>
                                         <li>Blog</li>
                                         <li>Blog Details</li>
                                         <li>Chefs</li>
-                                        <li>FAQ</li>
+                                        <NavLink to={"/faq"}>FAQ</NavLink>
                                         <li>Story</li>
                                         <li>Gallery</li>
                                     </ul>
-                                </li></NavLink>
+                                </li></a>
                                 <NavLink to={"/shop"} className={"shop"}><li>Shop
                                     <ul className='shopul'>
                                         <li>Shop</li>

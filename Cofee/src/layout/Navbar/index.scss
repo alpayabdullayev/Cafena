@@ -86,7 +86,6 @@
                     z-index: 2;
 
 
-
                 }
             }
 
@@ -102,6 +101,7 @@
                 transition: all 0.5s ease;
                 transform: scaleX(0);
                 transform-origin: top;
+                background-color: white;
 
 
 
@@ -137,6 +137,7 @@
                 transition: all 0.5s ease;
                 transform: scaleX(0);
                 transform-origin: top;
+                background-color: white;
 
                 li {
                     color: black;

@@ -12,14 +12,14 @@ import { CiLocationOn } from "react-icons/ci";
 import { NavLink } from 'react-router-dom';
 
 
-function Footer() {
+function Footer({linkvalue}) {
     return (
         <footer id='footer'>
             <div className="container">
                 <div className='footerbox'>
                     <div className="footertop">
                         <div className="toparrow">
-                            <a href="#header">
+                            <a href={linkvalue}>
                                 <IoIosArrowRoundUp />
                             </a>
                         </div>
@@ -98,7 +98,7 @@ function Footer() {
                         <NavLink to={"/contact"}><li>Contact</li></NavLink>
                     </ul>
                     <div className='gotop'>
-                        <a href="#header">
+                        <a href={linkvalue}>
                             Go Top
                             <span><IoIosArrowRoundUp /></span>
                         </a>    
