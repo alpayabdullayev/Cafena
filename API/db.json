@@ -13,7 +13,7 @@
 
             },
             "descriptions" :  "Anlor sit amet, consectetur adipiscing elit. Fusce condimentum est lacus, non pretium risus lacinia vel. Fusce eget turpis orci.",
-            "category":"Chocolate,Black Tea",
+            "category":"Alpay",
             "categoryID" :[1,5] ,
             "brand": "BRENDA",
             "status" : "In stock",
@@ -149,7 +149,11 @@
             "category": "Burger",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "1",
             "rating":5
         },
@@ -160,7 +164,11 @@
             "category": "Burger",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "1",
             "rating":5
         },
@@ -171,7 +179,11 @@
             "category": "Burger",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "1",
             "rating":5
         },
@@ -182,7 +194,11 @@
             "category": "2x Pizaa",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "2",
             "rating":5
         },
@@ -193,7 +209,11 @@
             "category": "2x Pizaa",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "2",
             "rating":5
         },
@@ -204,7 +224,11 @@
             "category": "2x Pizaa",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "2",
             "rating":5
         },
@@ -215,7 +239,11 @@
             "category": "2x Pizaa",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "2",
             "rating":5
         },
@@ -226,7 +254,11 @@
             "category": "Cold Drinks",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "3",
             "rating":5
         },
@@ -237,7 +269,11 @@
             "category": "Cold Drinks",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "3",
             "rating":5
         },
@@ -248,7 +284,11 @@
             "category": "Burger",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "1",
             "rating":5
         },
@@ -259,7 +299,11 @@
             "category": "Chikcen",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "4",
             "rating":5
         },
@@ -270,7 +314,11 @@
             "category": "Chikcen",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "4",
             "rating":5
         },
@@ -281,7 +329,11 @@
             "category": "Chikcen",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "4",
             "rating":5
         },
@@ -292,7 +344,11 @@
             "category": "Stuck Dish",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "5",
             "rating":5
         },
@@ -303,7 +359,11 @@
             "category": "Stuck Dish",
             "name": "VICARAGUA COFFEE BEANS",
             "brand" : "ROSTED COFFEE",  
-            "price":325,
+            "price": {
+                "original":348,
+                "discounted":325
+
+            },
             "categoryId": "5",
             "rating":5
         }

@@ -4,18 +4,27 @@
       .tabs-component {
         .tabs-container {
           display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-bottom: 60px;
+          gap: 30px;
+          font-size: 32px;
+
   
           .tabs {
             cursor: pointer;
-            padding: 10px;
+            padding: 20px;
             border: none;
-            background-color: #f0f0f0;
+            background: none;
             margin-right: 10px;
             font-weight: bold;
             color: #333;
+            font-size: 16px;
+            border: 1px solid #ddd;
   
             &.active {
-              background-color: #ddd;
+              background-color: #c96;
+              color: white;
             }
           }
         }
@@ -23,8 +32,7 @@
         .content {
           display: none;
           padding: 20px;
-          border: 1px solid #ddd;
-  
+          
           &.active-content {
             display: block;
           }

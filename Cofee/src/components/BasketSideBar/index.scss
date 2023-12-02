@@ -11,7 +11,7 @@
     top: 0;
     right: 0;
     transition: all 0.5s ease;
-    z-index: 999999999999999999999999999999999999999999;
+    z-index: 9999;
 }
 
 .sidebar.active {
@@ -25,6 +25,8 @@
     padding: 30px;
     z-index: 9;
     position: absolute;
+    margin-top: 50px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 700px) {

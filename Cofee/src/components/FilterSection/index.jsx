@@ -68,7 +68,7 @@ const FilterSection = () => {
                       return category.includes(item.categoryId);
                     })
                     .map((item) => (
-                      <FilterSectionCard key={item.id} {...item} />
+                      <FilterSectionCard key={item.id} item={item} {...item} />
                     ))
                 )}
               </div>

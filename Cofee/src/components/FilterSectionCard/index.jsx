@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./index.scss"
-const FilterSectionCard = ({image,image2,brand,name,price}) => {
+import { BasketContext } from "../../context/BasketContext";
+const FilterSectionCard = ({image,image2,brand,name,price,item}) => {
+  const {handleBasket} = useContext(BasketContext)
   return (
     <div className="col-12 col-xs-6 col-md-4 cardFilterCol ">
       <div className="cardFilter ">
@@ -12,7 +14,8 @@ const FilterSectionCard = ({image,image2,brand,name,price}) => {
         <div>
             <p>{brand}</p>
             <h2>{name}</h2>
-            <p>price ${price}</p>
+            <p>price ${price.original}</p>
+            <button onClick={()=>handleBasket(item)}>addbasket</button>
         </div>
       </div>
     </div>

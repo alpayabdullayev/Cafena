@@ -1,0 +1,63 @@
+#detailReletad{
+    padding-bottom: 80px;
+    .related-products-list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .relatedCol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      margin-top: 20px;
+      
+        .cardFilter {
+          border: 1px solid black;
+          padding: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 400px;
+          height: 400px;
+          .productImgFilter{
+              position: relative;
+              img{
+                aspect-ratio: 3/2;
+                object-fit: contain;
+                mix-blend-mode: color-burn;
+              }
+              .img1filter{
+                  opacity: 0;
+                  visibility: hidden;
+                  position: absolute;
+                  transition: all 0.5s ease;
+              }
+              .img2filter{
+                  opacity: 1;
+                  visibility: visible;
+                  transition: all 0.5s ease;
+      
+      
+              }
+              
+      
+          }
+          &:hover{
+              .img2filter{
+                  opacity: 0;
+                  visibility: hidden;
+              transition: all 0.5s ease;
+      
+              }
+              .img1filter{
+                  opacity: 1;
+                  visibility: visible;
+              transition: all 0.5s ease;
+      
+              }
+          }
+        }
+      
+      }
+    }
+  }
