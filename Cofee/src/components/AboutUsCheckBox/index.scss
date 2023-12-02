@@ -1,0 +1,30 @@
+.about-list {
+    display: flex;
+    flex-direction: column;
+    .spnadida{
+      display: flex;
+      p{
+        font-weight: 700;
+        font-size: 20px;
+        
+      }
+      span {
+        color: #292d32;
+        border-radius: 7px;
+        font-size: 24px;
+
+      }
+    }
+    
+  }
+
+  .icons-passed {
+    text-align: center;
+    border: 1px solid #E2DFDD;
+    margin-right: 15px;
+    transform: scale(1.0);
+
+    
+
+
+  }
