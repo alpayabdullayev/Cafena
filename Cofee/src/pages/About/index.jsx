@@ -3,6 +3,7 @@ import PageTitle from '../../components/PageTitle'
 import AboutUs from '../../components/AboutUs'
 import AboutCheckBox from '../../components/AboutUsCheckBox'
 import ChooseUs from '../../components/ChooseUs'
+import OurChef from '../../components/OurChef'
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
     <PageTitle title={"About"}/>
     <AboutUs checkbox={<AboutCheckBox/>}/>
     <ChooseUs/>
+    <OurChef/>
     </>
   )
 }

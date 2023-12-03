@@ -1,0 +1,36 @@
+#ourchef {
+    padding-top: 50px;
+
+    .chefbox {
+        .cheftop {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            h2{
+                font-size: 50px;
+            }
+            span {
+                background: #C7A17A;
+                padding: 5px;
+                border-radius:3px;
+                color: white;
+            }
+        }
+        .chefbottom{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+ .chefbottom{
+    grid-template-columns: 1fr 1fr !important;
+ }   
+}
+@media screen and (max-width: 800px) {
+    .chefbottom{
+        grid-template-columns: 1fr !important;
+    }
+}
