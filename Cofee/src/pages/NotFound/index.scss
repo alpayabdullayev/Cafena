@@ -1,0 +1,30 @@
+#notFound{
+    .bg-img{
+        min-height: 100vh;
+        background-image: url("https://xpressrow.com/html/cafena/cafena/assets/images/bg/testimonial-bg-2.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .divcenter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            font-size: 40px;
+            color: white;
+        }
+    }
+}
+
+.btndida{
+    transition: all 0.5s ease;
+    border: 1px solid  white !important;
+
+    &:hover{
+        background-color: #c96;
+        color: #000;
+        transition: all 0.5s ease;
+    border: 1px solid  black !important;
+    }
+}

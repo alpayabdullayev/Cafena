@@ -13,8 +13,8 @@ const ChooseUs = () => {
                             IN YOUR CITY</h2>
                     </div>
 
-                    <div className='testy-coffee'>
-                        <div className='emrah'>
+                    <div className='testy-coffee row'>
+                        <div className='emrah col-12 col-xs-6 col-md-4' >
                             <div className='emrahimg'>
                                 <img src="https://xpressrow.com/html/cafena/cafena/assets/images/icons/wcu-1.png" alt="" />
                                 <span></span>
@@ -23,7 +23,7 @@ const ChooseUs = () => {
                             <p>Accumsa nfringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsany.</p>
                             <PiArrowRightThin className='right-direction' />
                         </div>
-                        <div className='emrah'>
+                        <div className='emrah col-12 col-xs-6 col-md-4'>
                             <div className='emrahimg'>
                                 <img src="https://xpressrow.com/html/cafena/cafena/assets/images/icons/wcu-1.png" alt="" />
                                 <span></span>
@@ -32,7 +32,7 @@ const ChooseUs = () => {
                             <p>Accumsa nfringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsany.</p>
                             <PiArrowRightThin className='right-direction' />
                         </div>
-                        <div className='emrah'>
+                        <div className='emrah col-12 col-xs-6 col-md-4'>
                             <div className='emrahimg'>
                                 <img src="https://xpressrow.com/html/cafena/cafena/assets/images/icons/wcu-1.png" alt="" />
                                 <span></span>

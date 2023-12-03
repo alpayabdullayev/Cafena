@@ -11,7 +11,7 @@ export function WhiteButton({text}) {
 
 export function BeigeButton({text}) {
     return (
-        <button className='beigebutton left-to-right'>
+        <button className='beigebutton salam left-to-right'>
             {text}
         </button>
     )

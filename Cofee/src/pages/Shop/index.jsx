@@ -18,7 +18,6 @@ function Shop() {
           </FilterProvider>
         </SearchProvider>
       </ShopPageFilterProvider>
-      <Footer/>
     </>
   );
 }

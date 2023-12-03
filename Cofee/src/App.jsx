@@ -13,6 +13,7 @@ import WishlistSideBar from "./components/WishlistSideBar";
 import BasketSideBar from "./components/BasketSideBar";
 import Overlay from "./components/Overlay";
 import FAQ from "./pages/FAQ";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

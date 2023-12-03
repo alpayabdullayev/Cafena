@@ -1,8 +1,12 @@
 import React from 'react'
+import PageTitle from '../../components/PageTitle'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+    <PageTitle title={"CONTACT"}/>
+    
+    </>
   )
 }
 

@@ -12,6 +12,8 @@ import FilterSectionBrand from "../FilterSectionBrand";
 import { Slider } from "antd";
 import FiltersTopFour from "../FiltersTopFour";
 import FiltersColGrid from "../FiltersColGrid";
+import FilterSortChanges from "../FilterSortChanges";
+import UsePagination from "../../hooks/usePagination";
 
 const FilterSection = () => {
   const [data, setData] = useState([]);
@@ -25,6 +27,7 @@ const FilterSection = () => {
   const [priceRange, setPriceRange] = useState([250, 400]);
   const [topFourItems, setTopFourItems] = useState([]);
   const [selectedButton, setSelectedButton] = useState("col-lg-4");
+  const { handleClick, PageNumbers, pageData } = UsePagination(1, 9, data);
 
   const url = "  http://localhost:3000/filters";
 
@@ -56,22 +59,19 @@ const FilterSection = () => {
             <div>
               <p>Showing 1–12 of 54 results</p>
             </div>
-            <div>
+            <div className="dfButtons">
               <FiltersColGrid setSelectedButton={setSelectedButton} selectedButton={selectedButton}/>
-              <select name="" id="">
-                <option value="">salam</option>
-                <option value="">salam</option>
-                <option value="">salam</option>
-              </select>
+              <FilterSortChanges data={data} setData={setData}/>
             </div>
           </div>
           <div className="filterIsPage">
             <div className="row">
-              <div className="col-12 col-md-8 row">
+              <div className="col-12 col-md-8">
+                <div className="row">
                 {isLoading ? (
                   <p>Loading...</p>
                 ) : (
-                  data
+                  pageData
                     .filter((item) =>
                       item.name
                         .toLowerCase()
@@ -94,7 +94,11 @@ const FilterSection = () => {
                       <FilterSectionCard key={item.id} item={item} selectedButton={selectedButton} {...item} />
                     ))
                 )}
+                </div>
+            
               </div>
+
+              
               <div className="col-12 col-md-4">
                 <FilterSearch />
                 <FilterSectionCategory />
@@ -128,6 +132,13 @@ const FilterSection = () => {
           </div>
         </div>
       </div>
+      <div className="paginationButtons">
+          {PageNumbers.map((page) => (
+            <button key={page} onClick={() => handleClick(page)}>
+              {page}
+            </button>
+          ))}
+        </div>
     </>
   );
 };

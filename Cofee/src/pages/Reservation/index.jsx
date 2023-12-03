@@ -1,8 +1,17 @@
 import React from 'react'
+import PageTitle from '../../components/PageTitle'
+import ReservationForm from '../../components/ReservationForm'
 
 function Reservation() {
   return (
-    <div>Reservation</div>
+    <>
+    <PageTitle title={"RESERVATION"}/>
+    <section id='reservation'>
+      <div className="container">
+        <ReservationForm/>
+      </div>
+    </section>
+    </>
   )
 }
 

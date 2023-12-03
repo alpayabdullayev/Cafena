@@ -11,7 +11,7 @@ const BasketCard = ({ image, name, category, rating, count, item,price }) => {
   return (
     <>
       <div className="cardProduct">
-        <div className="cardContent">
+        <div className="cardContent ">
           <div className="cardImgBasket">
             <img src={image} alt="" />
           </div>
@@ -23,14 +23,15 @@ const BasketCard = ({ image, name, category, rating, count, item,price }) => {
             <p>${price.original}</p>
             <p>{count}</p>
             </div>
-            <div>
+
+
+          </div>
+          <div className="buttoncardBasket">
             <button onClick={() => toggleHeart(item)}>
               {heart.includes(item.id) ? <IoIosHeart /> : <FaRegHeart />}
             </button>
             <button onClick={()=>handleRemove(item.id)}>X</button>
             </div>
-
-          </div>
         </div>
         <p>total: {item.count * item.price.discounted}</p>
 

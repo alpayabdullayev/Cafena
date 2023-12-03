@@ -1,13 +1,53 @@
 .cardContent{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     align-items: center;
+    
     .cardImgBasket{
-        width: 50px;
+        background: #ffffff;
+        min-width: 70px;
+        img{
+            width: 80px ;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            max-width: 60px;
+            height: 80px;
+            }
     }
+
+
     .cardBody{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 33% !important;
+        h1{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .buttoncardBasket{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 33%;
+        button{
+            border: none;
+            background: none;
+            outline: none;
+            border: 1px solid #eee;
+            border-radius: 50%;
+            background-color: #c96;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
