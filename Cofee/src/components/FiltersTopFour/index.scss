@@ -1,0 +1,60 @@
+.topFour {
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-top: 20px;
+  .topFourTitle {
+    padding-bottom: 20px;
+  }
+  .topFourContent {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    &:hover {
+      .topImg {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+    .topImg {
+      width: 70px;
+      height: 70px;
+      border: 1px solid #eee;
+      padding: 15px 10px;
+      margin-top: 10px;
+      overflow: hidden;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        transition: all 0.5s ease;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .topFourBody {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .ratingStar {
+        span {
+          color: #c96;
+        }
+      }
+    }
+    .delPrice {
+      color: #a7a7a7;
+    }
+    .ratingStar {
+      color: #c96;
+    }
+    .TopName {
+      font-weight: 500;
+      color: #000;
+      text-decoration: none;
+      font-size: 15px;
+    }
+  }
+}

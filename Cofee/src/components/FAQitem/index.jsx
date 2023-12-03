@@ -6,6 +6,7 @@ function FAQitem({title,content}) {
     const [isFaqOpen, setIsFaqOpen] = useState(false)
     const handleFaqOpen =()=>{
         setIsFaqOpen(!isFaqOpen)
+        
     }
   return (
     <div className='faqitem'>

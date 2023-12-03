@@ -4,14 +4,21 @@ export const FilterContext = createContext();
 
 const FilterProvider = ({ children }) => {
     const [category, setCategory] = useState("ALL")
+    const [brand,setBrand] = useState("ALL")
 
     const updateCategory = (newCategory) => {
         setCategory(newCategory);
       };
+      const updateBrand= (newBrand) => {
+        setBrand(newBrand);
+      };
   const data = {
     category,
     updateCategory,
-    setCategory
+    setCategory,
+    brand,
+    updateBrand,
+    setBrand
   };
 
   return (

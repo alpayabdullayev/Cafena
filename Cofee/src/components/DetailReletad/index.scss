@@ -11,7 +11,8 @@
       margin-top: 20px;
       
         .cardFilter {
-          border: 1px solid black;
+          border: 1px solid #E2DFDD;
+          border-radius: 12px;
           padding: 30px;
           display: flex;
           justify-content: center;
@@ -25,6 +26,7 @@
                 aspect-ratio: 3/2;
                 object-fit: contain;
                 mix-blend-mode: color-burn;
+                border-radius: 12px; 
               }
               .img1filter{
                   opacity: 0;

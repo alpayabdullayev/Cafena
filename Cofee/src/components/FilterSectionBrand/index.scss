@@ -1,0 +1,30 @@
+.brandButtonSection {
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-top: 20px;
+  .titleBrand {
+    padding-bottom: 20px;
+  }
+  .CategoryIdButtons {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    button {
+      background: none;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid #e2dfdd;
+      width: 100%;
+      transition: 0.3s;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: center;
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}

@@ -3,6 +3,8 @@ import FilterSection from "../../components/FilterSection";
 import PageTitle from "../../components/PageTitle";
 import SearchProvider from "../../context/SearchContext";
 import ShopPageFilterProvider from "../../context/ShopPageFilterContext";
+import FilterProvider from "../../context/FilterContext";
+import Footer from "../../layout/Footer";
 
 function Shop() {
   return (
@@ -10,9 +12,13 @@ function Shop() {
       <PageTitle title={"SHOP"} />
       <ShopPageFilterProvider>
         <SearchProvider>
+          <FilterProvider>
           <FilterSection />
+
+          </FilterProvider>
         </SearchProvider>
       </ShopPageFilterProvider>
+      <Footer/>
     </>
   );
 }

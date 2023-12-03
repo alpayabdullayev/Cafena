@@ -17,14 +17,14 @@ const SpecialMenu = () => {
 
   const url = "  http://localhost:3000/products";
 
-  const Callback = (data) => {
-    if (!status) {
-      console.log(data);
-      setData(data);
-      setStatus(true);
-      setIsLoading(false);
-    }
-  };
+    const Callback = (data) => {
+      if (!status) {
+        console.log(data);
+        setData(data);
+        setStatus(true);
+        setIsLoading(false);
+      }
+    };
 
   useFetch(url, Callback);
 

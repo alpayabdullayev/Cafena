@@ -11,7 +11,41 @@
 
     }
     .filterIsPage{
-        padding-top: 80px;       
+        padding-top: 40px;       
         padding-bottom: 80px;       
+    }
+}
+
+.ant-slider .ant-slider-track{
+    color: #C7A17A;
+    background-color: #C7A17A;
+
+}
+
+.ant-slider:hover .ant-slider-track{
+    color: #C7A17A;
+    background-color: #C7A17A;
+}
+
+.ant-slider-handle-1{
+    color: #C7A17A !important;
+    background-color: #C7A17A !important;
+    border-radius: 0px !important;
+    &::after{
+        color: #C7A17A !important;
+        background-color: #C7A17A !important;
+        box-shadow: 0 0 0 2px #C7A17A !important;
+     
+    }
+}
+.ant-slider-handle-2{
+    color: #C7A17A !important;
+    background-color: #C7A17A !important;
+    border-radius: 0px !important;
+    &::after{
+        color: #C7A17A !important;
+        background-color: #C7A17A !important;
+        box-shadow: 0 0 0 2px #C7A17A !important;
+     
     }
 }

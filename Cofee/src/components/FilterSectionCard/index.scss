@@ -1,16 +1,41 @@
 .cardFilterCol {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 margin-top: 20px;
+flex-wrap: wrap;
   .cardFilter {
-    border: 1px solid black;
+    border: 1px solid #E2DFDD;
+    border-radius: 12px;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    height: 350px;
+    
+
+    .socialIconsFilter{
+      position: absolute;
+      transition: all 0.5s ease;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .socialIconFilter{
+        padding: 5px 8px;
+        border: 1px solid #E2DFDD;
+        margin-left: 5px;
+        border-radius: 5px;
+        color: #6c6c6c;
+      }
+    }
     .productImgFilter{
+      padding-top: 15px;
         position: relative;
         .img1filter{
             opacity: 0;
@@ -41,6 +66,12 @@ margin-top: 20px;
         transition: all 0.5s ease;
 
         }
+        .socialIconsFilter{
+          opacity: 1;
+          visibility: visible;
+          transition: all 0.5s ease;
+        }
     }
+
   }
 }

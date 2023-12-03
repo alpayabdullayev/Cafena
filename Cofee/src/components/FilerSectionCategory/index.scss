@@ -1,0 +1,19 @@
+.filterSectionCategory{
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    margin-top: 25px;
+    .filterSectionCategoryTitle{
+        padding: 10px 0;
+    }
+    .filter-items{
+        .filter-item{
+            .control{
+                span{
+                    font-weight: 600;
+                    color: #6c6c6c;
+                }
+            }
+        }
+    }
+}

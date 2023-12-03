@@ -2,13 +2,19 @@ import React from 'react'
 import { Checkbox } from 'antd';
 import { useContext } from 'react';
 import { ShopPageFilterContext } from '../../context/ShopPageFilterContext';
-
+import "./index.scss"
 
 const FilterSectionCategory = () => {
 
     const { handleCategoryClick,category} = useContext(ShopPageFilterContext)
   return (
-    <div className="filter-items">
+      <>
+      
+      <div className='filterSectionCategory'>
+          <div className='filterSectionCategoryTitle'>
+            <h1>Categories</h1>
+          </div>
+          <div className="filter-items">
               <div className="filter-item">
                 <div className="control">
                   <Checkbox
@@ -66,6 +72,8 @@ const FilterSectionCategory = () => {
               </div>
 
     </div>
+      </div>
+      </>
   )
 }
 
