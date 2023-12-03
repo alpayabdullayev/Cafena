@@ -3,7 +3,7 @@ import "./index.scss"
 import { MainContext } from '../../context/MainContext';
 
 const Overlay = () => {
-    const { active,handleOverlayClick,activeWishlist } = useContext(MainContext);
+    const { active,handleOverlayClick,activeWishlist,sidebarOpen } = useContext(MainContext);
 
 
 
@@ -12,6 +12,7 @@ const Overlay = () => {
 <>
 <div className={`overlay ${active? 'active' : ''}`}  onClick={handleOverlayClick}></div>
 <div className={`overlay ${activeWishlist? 'active' : ''}`}  onClick={handleOverlayClick}></div>
+<div className={`overlay ${sidebarOpen? 'active' : ''}`}  onClick={handleOverlayClick}></div>
 </>
   )
 }
