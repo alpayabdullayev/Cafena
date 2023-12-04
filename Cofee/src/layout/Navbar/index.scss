@@ -5,9 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     z-index: 9999999999999;
-
 
 
     .navbox {
@@ -190,7 +188,7 @@
     opacity: 0;
     visibility: hidden;
     overflow-x: hidden;
-    width: 35%;
+    width: 25%;
     height: 100%;
     min-height: 100vh;
     background-color: white;
@@ -206,8 +204,7 @@
 
     .sidebox {
         width: 60%;
-        min-height: 65%;
-        border: 1px solid black;
+        min-height: 55%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -216,7 +213,9 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
-
+            .newbeige{
+                width: 100px !important;
+            }
             img {
                 width: 85px;
             }
@@ -235,6 +234,9 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
+            h4{
+                font-size: 20px;
+            }
             .bottomicons {
                 display: flex;
                 justify-content: space-between;

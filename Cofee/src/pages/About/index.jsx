@@ -11,7 +11,7 @@ function About() {
     <PageTitle title={"About"}/>
     <AboutUs checkbox={<AboutCheckBox/>}/>
     <ChooseUs/>
-    <OurChef/>
+    <OurChef linkvalue={"#aboutus"}/>
     </>
   )
 }

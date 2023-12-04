@@ -1,4 +1,5 @@
 .wishlist {
+    padding-top: 72px;
     opacity: 0;
     visibility: hidden;
     overflow-x: hidden;
@@ -12,6 +13,12 @@
     right: 0;
     transition: all 0.5s ease;
     z-index: 2;
+    .wishlist-title{
+        padding-left: 20px;
+        h1{
+            font-size: 40px;
+        }
+    }
 }
 
 .wishlist.active {

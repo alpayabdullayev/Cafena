@@ -108,9 +108,15 @@
     }
 
     .footertop {
+        .toparrow:hover{
+            background-color: #c7a17a;
+            color: white;
+            border: none;
+        }
         .toparrow {
             position: absolute;
             background-color: white;
+            border: 1px solid #E2DFDD;
             top: -25px;
             left: 50%;
             width: 50px;
@@ -118,7 +124,7 @@
             font-size: 30px;
             border-radius: 100%;
             cursor: pointer;
-
+            
             a {
                 border-radius: 100%;
                 width: 100%;
