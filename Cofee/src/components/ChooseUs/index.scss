@@ -1,105 +1,105 @@
 #why-choose-us {
-    background: #F4F1EE;
-    min-height: 90vh;
-    z-index: 1;
-    position: relative;
-    padding: 80px 0;
-    text-align: center !important;
+  background: #F4F1EE;
+  min-height: 90vh;
+  z-index: 1;
+  position: relative;
+  padding: 80px 0;
+  text-align: center !important;
 
 
 
-    .sub-title-chooseus {
-        color: #ffffff;
-        border: 1px solid #C7A17A;
-        background-color: #C7A17A;
-        font-family: "Jost", sans-serif;
-        display: inline-block;
-        font-size: 12px;
-        text-transform: uppercase;
-        border-radius: 3px;
-        padding: 1.5px 13px;
-        letter-spacing: 2px;
-        line-height: 22px;
-        margin-bottom: 23px;
+  .sub-title-chooseus {
+      color: #ffffff;
+      border: 1px solid #C7A17A;
+      background-color: #C7A17A;
+      font-family: "Jost", sans-serif;
+      display: inline-block;
+      font-size: 12px;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 1.5px 13px;
+      letter-spacing: 2px;
+      line-height: 22px;
+      margin-bottom: 23px;
 
 
 
-    }
+  }
 
-    .title-yourcity {
-        font-size: 55px;
-        text-transform: uppercase;
+  .title-yourcity {
+      font-size: 55px;
+      text-transform: uppercase;
 
-    }
-
-
+  }
 
 
-    .testy-coffee {
-        display: flex;
-        justify-content: center;
-        align-items: center ;
-        flex-wrap: wrap;
-        .emrah:hover {
-
-            .emrahimg {
-                span {
-                    transform: translate(-30px);
-                    transition: 0.3s;
-                }
-            }
-        }
-
-        .emrah {
-            border: 1px solid #E2DFDD;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            margin-top: 30px;
-            padding: 30px;
-
-            
-            .emrahimg {
-                width: 100px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-wrap: wrap;
-                position: relative;
-
-                span {
-                    width: 50px;
-                    height: 50px;
-                    background-color: #EDDFD1;
-                    position: absolute;
-                    border-radius: 100%;
-                    opacity: 0.6;
-                    bottom: 0;
-                    right: 10px;
-                    transition: 0.3s;
-                }
-            }
-
-            img {
-                width: 80px;
-            }
-        }
-
-        .coffee-recipe {
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
 
 
-        .right-direction {
-            font-size: 30px;
-            border: 1px solid #E2DFDD;
-            border-radius: 5px;
-            color: #776c62;
-        }
+  .testy-coffee {
+      display: flex;
+      justify-content: center;
+      align-items: center ;
+      flex-wrap: wrap;
+      .emrah:hover {
 
-    }
+          .emrahimg {
+              span {
+                  transform: translate(-30px);
+                  transition: 0.3s;
+              }
+          }
+      }
+
+      .emrah {
+          border: 1px solid #E2DFDD;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          margin-top: 30px;
+          padding: 30px;
+
+          
+          .emrahimg {
+              width: 100px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              position: relative;
+
+              span {
+                  width: 50px;
+                  height: 50px;
+                  background-color: #EDDFD1;
+                  position: absolute;
+                  border-radius: 100%;
+                  opacity: 0.6;
+                  bottom: 0;
+                  right: 10px;
+                  transition: 0.3s;
+              }
+          }
+
+          img {
+              width: 80px;
+          }
+      }
+
+      .coffee-recipe {
+          font-size: 30px;
+          margin-bottom: 10px;
+      }
+
+
+      .right-direction {
+          font-size: 30px;
+          border: 1px solid #E2DFDD;
+          border-radius: 5px;
+          color: #776c62;
+      }
+
+  }
 
 
 }
