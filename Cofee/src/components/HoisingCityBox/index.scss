@@ -1,0 +1,61 @@
+#thebestcoffee{
+display: flex;
+padding: 50px 0;
+.coffebox{
+    position: relative;
+    border: 1px solid black;
+    .imgzindex{
+        img{
+            z-index: 999;
+        }
+    }
+
+    .textbox{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 50%;
+    }
+}
+.h2{
+position: relative;
+z-index: 2;
+background: #ffffff;
+box-shadow: 0px 14px 40px 0px rgba(220, 220, 220, 0.3);
+border-radius: 10px;
+    border: 1px solid #E2DFDD;
+padding-top: 80px;
+padding-left: 100px;
+padding-right: 130px;
+padding-bottom: 80px;
+
+.tag-p{
+margin-bottom: 35px;
+color: #6c6c6c;
+font-size: 18px;
+
+}
+
+
+
+
+    .try{
+        font-size: 55px;
+        line-height: 57px;
+        text-transform: uppercase;
+        
+        }
+
+}
+
+
+}
+
+
+@media screen and (max-width:1000px) {
+    .textbox{
+        display: none;
+        top: 0;
+
+    }
+}

@@ -1,104 +1,218 @@
 #why-choose-us {
-    background: #F4F1EE;
-    min-height: 90vh;
-    z-index: 1;
-    position: relative;
-    padding: 80px 0;
-    text-align: center !important;
+  background: #f4f1ee;
+  min-height: 90vh;
+  z-index: 1;
+  position: relative;
+  padding: 80px 0;
+  text-align: center !important;
 
+  .sub-title-chooseus {
+    color: #ffffff;
+    border: 1px solid #c7a17a;
+    background-color: #c7a17a;
+    font-family: "Jost", sans-serif;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 1.5px 13px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 23px;
+  }
 
+  .title-yourcity {
+    font-size: 55px;
+    text-transform: uppercase;
+  }
 
-    .sub-title-chooseus {
-        color: #ffffff;
-        border: 1px solid #C7A17A;
-        background-color: #C7A17A;
-        font-family: "Jost", sans-serif;
-        display: inline-block;
-        font-size: 12px;
-        text-transform: uppercase;
-        border-radius: 3px;
-        padding: 1.5px 13px;
-        letter-spacing: 2px;
-        line-height: 22px;
-        margin-bottom: 23px;
+  // -------------------------------------------------------------------------------------------------
 
-
+  .testy-coffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    button{
+      border: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease;
 
     }
-
-    .title-yourcity {
-        font-size: 55px;
-        text-transform: uppercase;
-
+    button:hover{
+      background-color: #c7a17a;
+      cursor: pointer;
+      color: white;
+      transition: all 0.5s ease;
+    }
+    .alpay:hover {
+      .alpayimg {
+        span {
+          transform: translate(-30px);
+          transition: 0.3s;
+        }
+      }
     }
 
-
-
-
-    .testy-coffee {
+    .alpay {
+      border: 1px solid #e2dfdd;
+      // padding: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 20vw;
+      .alpayimg {
+        width: 100px;
         display: flex;
         justify-content: center;
-        align-items: center ;
-        flex-wrap: wrap;
-        gap: 20px;
-        .emrah:hover {
+        align-items: center;
+        position: relative;
 
-            .emrahimg {
-                span {
-                    transform: translate(-30px);
-                    transition: 0.3s;
-                }
-            }
+        span {
+          width: 50px;
+          height: 50px;
+          background-color: #eddfd1;
+          position: absolute;
+          border-radius: 100%;
+          opacity: 0.6;
+          bottom: 0;
+          right: 10px;
+          transition: 0.3s;
         }
+      }
 
-        .emrah {
-            border: 1px solid #E2DFDD;
-            // padding: 75px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            width: 20vw;
-            .emrahimg {
-                width: 100px;
-                border: 1px solid black;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-
-                span {
-                    width: 50px;
-                    height: 50px;
-                    background-color: #EDDFD1;
-                    position: absolute;
-                    border-radius: 100%;
-                    opacity: 0.6;
-                    bottom: 0;
-                    right: 10px;
-                    transition: 0.3s;
-                }
-            }
-
-            img {
-                width: 80px;
-            }
-        }
-
-        .coffee-recipe {
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-
-
-        .right-direction {
-            font-size: 30px;
-            border: 1px solid #E2DFDD;
-            border-radius: 5px;
-            color: #776c62;
-        }
-
+      img {
+        width: 80px;
+      }
     }
 
+    .coffee-recipe {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
 
+    .right-directiontwo {
+      font-size: 30px;
+      border: 1px solid #e2dfdd;
+      border-radius: 5px;
+      color: #776c62;
+    }
+
+    // ----------------------------------------------------
+
+    .ahmed:hover {
+      .ahmedimg {
+        span {
+          transform: translate(-30px);
+          transition: 0.3s;
+        }
+      }
+    }
+
+    .ahmed {
+      border: 1px solid #e2dfdd;
+      // padding: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 20vw;
+      .ahmedimg {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        span {
+          width: 50px;
+          height: 50px;
+          background-color: #eddfd1;
+          position: absolute;
+          border-radius: 100%;
+          opacity: 0.6;
+          bottom: 0;
+          right: 10px;
+          transition: 0.3s;
+        }
+      }
+
+      img {
+        width: 80px;
+      }
+    }
+
+    .coffee-recipe {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .right-directionone {
+      font-size: 30px;
+      border: 1px solid #e2dfdd;
+      border-radius: 5px;
+      color: #776c62;
+    }
+
+    // -----------------------------------------------------------------------
+    .emrah:hover {
+    
+      .emrahimg {
+        span {
+          transform: translate(-30px);
+          transition: 0.3s;
+        }
+      }
+    }
+
+    .emrah {
+      border: 1px solid #e2dfdd;
+      // padding: 75px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      width: 20vw;
+      .emrahimg {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        span {
+          width: 50px;
+          height: 50px;
+          background-color: #eddfd1;
+          position: absolute;
+          border-radius: 100%;
+          opacity: 0.6;
+          bottom: 0;
+          right: 10px;
+          transition: 0.3s;
+        }
+        
+      }
+
+      img {
+        width: 80px;
+      }
+    }
+
+    .coffee-recipe {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .right-direction {
+      font-size: 30px;
+      border: 1px solid #e2dfdd;
+      border-radius: 5px;
+      color: #776c62;
+    }
+  }
 }
