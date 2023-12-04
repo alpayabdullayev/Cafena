@@ -3,7 +3,7 @@ import "./index.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { v4 as uuidv4 } from 'uuid';
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import {Autoplay, Navigation } from "swiper/modules";

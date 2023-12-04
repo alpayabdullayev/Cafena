@@ -68,8 +68,6 @@ const ReservationForm = () => {
     };
 
     await sendEmail(templateParams);
-
-    // Show success message
     const MySwal = withReactContent(Swal);
     await MySwal.fire({
       title: "REZERV Uğurla Başa Çatdı!",
