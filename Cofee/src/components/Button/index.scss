@@ -95,6 +95,7 @@
 
 
 }
+
 .left-to-right-white {
   position: relative;
   z-index: 1;
@@ -148,11 +149,13 @@
 
   }
 }
+
 @media screen and (max-width: 500px) {
   .whitebutton {
     font-size: 5px !important;
     padding: 5px 10px;
   }
+
   .beigebutton {
     font-size: 5px !important;
     padding: 5px 10px;

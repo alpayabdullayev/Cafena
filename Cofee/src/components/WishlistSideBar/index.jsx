@@ -6,8 +6,8 @@ import WishlistCard from "../WishlistCard";
 import { v4 as uuidv4 } from 'uuid';
 
 const WishlistSideBar = () => {
-  const { activeWishlist } = useContext(MainContext);
-  const { wishlist, setWishlist, heart, setHeart, toggleHeart } =
+  const { activeWishlist,handleSidebarOpen,sidebarOpen } = useContext(MainContext);
+  const { wishlist, setWishlist, heart, setHeart, toggleHeart, } =
     useContext(WishlistContext);
   return (
     <>
