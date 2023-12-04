@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 30px;
+
     .card {
         min-width: 30%;
 
@@ -10,6 +11,7 @@
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
             width: 20vw;
+
             img {
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -21,28 +23,52 @@
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                .rasalina{
+
+                .rasalina {
                     font-weight: 500;
-                    span{
+
+                    span {
                         color: #a7a7a7;
-                        font-weight: 360 ;
+                        font-weight: 360;
                     }
                 }
-                .buttonli{
+
+                .buttonli {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    i:hover{
-                        color: #C7A17A; 
+
+                    i:hover {
+                        color: #C7A17A;
                         cursor: pointer;
                     }
-                }
-                li{
 
-                    h3{
-                        font-size: 25px ;
+                    .cardbutton {
+                        width: 100px;
+                        display: flex;
+                        gap: 10px;
+                        svg{
+                            transition: 0.2s;
+                        }
                     }
-                    button{
+
+                    .cardbutton:hover {
+                        svg {
+                            transform: translate(-5px);
+                            transition: 0.2s;
+                        }
+                    }
+                }
+
+
+
+                li {
+
+                    h3 {
+                        font-size: 25px;
+                    }
+
+                    button {
                         color: #6c6c6c;
                         background-color: transparent;
                         border: none;
@@ -52,7 +78,8 @@
                         gap: 5px;
                         cursor: pointer;
                     }
-                    button:hover{
+
+                    button:hover {
                         color: #C7A17A;
                     }
                 }

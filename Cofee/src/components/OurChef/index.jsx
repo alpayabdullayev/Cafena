@@ -13,8 +13,8 @@ function OurChef() {
           </div>
           <div className="chefbottom">
             <OurChefCard exp={"12 YEAR EXPERIENCE"} chefname={"RASALINA DE WILLAMSON"} cardimg={"https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg"} />
-            <OurChefCard exp={"12 YEAR EXPERIENCE"} chefname={"RASALINA DE WILLAMSON"} cardimg={"https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg"} />
-            <OurChefCard exp={"12 YEAR EXPERIENCE"} chefname={"RASALINA DE WILLAMSON"} cardimg={"https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg"} />
+            <OurChefCard exp={"09 YEAR EXPERIENCE"} chefname={"RASALINA DE WILLAMSON"} cardimg={"https://xpressrow.com/html/cafena/cafena/assets/images/team/team-2.jpeg"} />
+            <OurChefCard exp={"05 YEAR EXPERIENCE"} chefname={"RASALINA DE WILLAMSON"} cardimg={"https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg"} />
           </div>
         </div>
       </div>

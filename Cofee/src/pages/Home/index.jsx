@@ -32,7 +32,6 @@ const Home = () => {
         <Testimonial/>
         <TopGrade/>
         <News/>
-        <Footer linkvalue={"#header"}/>
       </>
     </div>
   );
