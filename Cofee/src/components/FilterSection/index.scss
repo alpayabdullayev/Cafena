@@ -56,3 +56,20 @@
     align-items: center;
     gap: 10px;
 }
+
+.buttonsPag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    button{
+        margin-left: 15px;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border: 1px solid #c96;
+        background-color: #C7A17A;
+        color: white;
+    }
+}

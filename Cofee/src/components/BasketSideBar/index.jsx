@@ -7,14 +7,17 @@ import { v4 as uuidv4 } from 'uuid';
 
 const BasketSideBar = () => {
   const { active } = useContext(MainContext);
-  const { basket } = useContext(BasketContext);
+  const {countBasket, basket } = useContext(BasketContext);
+
 
   return (
     <>
       <div className={`sidebar ${active ? "active" : ""}`}>
         <div className="basket-container">
           <div className="basketTitle">
-            <h1>BASKET</h1>
+            <h1>BASKET</h1> 
+            <p>BASKET COUNT: {countBasket}</p>
+
           </div>
 
           <div>

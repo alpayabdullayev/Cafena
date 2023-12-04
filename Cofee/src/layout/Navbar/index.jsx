@@ -14,12 +14,14 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaGooglePlusG } from "react-icons/fa";
+import { BasketContext } from '../../context/BasketContext';
 
 
 function Navbar() {
     const { handleSidebarOpen, sidebarOpen } = useContext(MainContext);
     const [isSearchOpen, setIsSearchOpen] = useState(false)
     const { basketOpen, wishlistiOpen } = useContext(MainContext);
+    const {countBasket} = useContext(BasketContext)
     const [isFixed, setIsFixed] = useState(false);
 
     useEffect(() => {
@@ -41,6 +43,8 @@ function Navbar() {
     const navbarStyle = {
         transition: 'all 0.3s ease',
     };
+
+
     return (
         <>
             <nav id='nav' className={isFixed ? 'fixed-navbar' : 'normal-navbar'} style={navbarStyle}>
@@ -90,8 +94,9 @@ function Navbar() {
                             <div className='iconsdiv'>
                                 <button onClick={handleSidebarOpen}> <FaBars /></button>
                             </div>
-                            <div className='iconsdiv'>
+                            <div className='iconsdiv basketIconDiv'>
                                 <button onClick={() => basketOpen()}><FaShoppingBasket /></button>
+                                <p>{countBasket}</p>
                             </div>
                             <div className='iconsdiv'>
                                 <button onClick={() => wishlistiOpen()}>                            <BsBox2HeartFill /></button>

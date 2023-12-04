@@ -96,6 +96,15 @@ const FilterSection = () => {
                 )}
                 </div>
             
+                <div className="buttonsPag">
+          <div className="paginationButtons">
+          {PageNumbers.map((page) => (
+            <button key={page} onClick={() => handleClick(page)}>
+              {page}
+            </button>
+          ))}
+        </div>
+          </div>
               </div>
 
               
@@ -132,13 +141,9 @@ const FilterSection = () => {
           </div>
         </div>
       </div>
-      <div className="paginationButtons">
-          {PageNumbers.map((page) => (
-            <button key={page} onClick={() => handleClick(page)}>
-              {page}
-            </button>
-          ))}
-        </div>
+     <div className="container">
+          
+     </div>
     </>
   );
 };

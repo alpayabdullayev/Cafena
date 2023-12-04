@@ -340,3 +340,20 @@
         }
     }
 }
+
+.basketIconDiv{
+    position: relative;
+    p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: green;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        color: white;
+    }
+}

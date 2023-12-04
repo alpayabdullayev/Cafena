@@ -51,9 +51,10 @@ const BasketProvider = ({children}) => {
         }
     }
 
+    const countBasket = basket.reduce((acc, x) => acc + x.count, 0)
 
     const data = {
-        basket,setBasket,handleBasket,handleRemove,handleCountVal
+        basket,setBasket,handleBasket,handleRemove,handleCountVal,countBasket
     }
 
 
